@@ -1,5 +1,22 @@
 # Changelog
 
+## Retrieval repair upstreamed — 2026-10-27
+
+- The retrieval repair was merged into Combined MPLPB as pull request #18
+  (commit `d2f92a8`), after its full suite (674 tests), WebAssembly build and
+  live-site Chromium checks passed there.
+- Re-pinned Combined MPLPB from `8c8de37` plus local patches to `d2f92a8`
+  unchanged. `upstream/MPLPB/` now matches that commit exactly, except the
+  archive listed in `UPSTREAM_OMISSIONS.json`. The two language zips that
+  upstream rebuilds from byte parts and ignores are no longer committed.
+- Removed `patches/retrieval-repair.patch` and `tests/retrieval_repair_test.py`.
+  `scripts/test.py` now runs upstream's `tests/test_page_retrieval.py`.
+- Rebuilt `web/`. The engine bundles and MPLPB page are byte-identical. Only
+  `.well-known/mplpb.json` changed, gaining the `page_retrieval` method.
+- `src/pins.json` records the new commit with `local_modifications: false`.
+- Verified: `test.py --full` (including 674 upstream Python tests), packaged
+  WebAssembly 56/56, and the site in Chromium.
+
 ## Repository and website — 2026-10-27
 
 No engine, corpus, benchmark or test changes.

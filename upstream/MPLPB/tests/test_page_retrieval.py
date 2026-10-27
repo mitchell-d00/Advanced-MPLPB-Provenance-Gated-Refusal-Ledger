@@ -3,7 +3,7 @@ import asyncio,json,shutil,sys,tempfile,unittest
 from pathlib import Path
 from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT/'upstream/MPLPB'))
+sys.path.insert(0,str(ROOT))
 from mplpb_combined import ledger as L,reader as R
 from mplpb_combined.record import parse_page,render_page,upsert_meta
 from mplpb_combined.retrieval import retrieve
@@ -90,3 +90,25 @@ class RetrievalRepairTests(unittest.TestCase):
   self.assertNotEqual(supported_answer(self.root,'What is kit maintenance?').kind,'return')
 
 if __name__=='__main__':unittest.main()
+
+
+class HistoricalBenchmarkTests(unittest.TestCase):
+ """The frozen kill-test probes must keep their bytes and their retrieval scores."""
+ PIN='fd0f8b1d61a206dcbb612fdc7503ab339a09ec02aebf576b27554c1fb4cb9076'
+ FLOORS={'probes':56,'probes_heldout':22,'probes_adjacent':16}
+ def test_gated_retrieval_scores_on_frozen_sets(self):
+  import hashlib
+  corpus=ROOT/'examples/studio'
+  with tempfile.TemporaryDirectory() as d:
+   app=App(topic_base=Path(d)/'topics')
+   for name,floor in self.FLOORS.items():
+    path=ROOT/'killtest'/(name+'.json');actual=hashlib.sha256(path.read_bytes()).hexdigest()
+    self.assertEqual(actual,path.with_suffix('.sha256').read_text().split()[0],name)
+    if name=='probes':self.assertEqual(actual,self.PIN)
+    correct=0
+    for probe in json.loads(path.read_text())['probes']:
+     r=app.retrieve({'corpus':'studio','profile':'internal','question':probe['q']})
+     d_=r['decision'];self.assertFalse(r['answer_supported'])
+     if d_['kind']=='return':self.assertEqual(r['kind'],'retrieved');self.assertEqual(r['source']['id'],d_['id'])
+     correct+=d_['kind']==probe['expect'] and (probe['expect']!='return' or d_.get('id')==probe.get('doc'))
+    self.assertGreaterEqual(correct,floor,name)

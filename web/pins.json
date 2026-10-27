@@ -4,11 +4,11 @@
   "engines": {
     "mplpb": {
       "repository": "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
-      "transport": "Full Python/Pyodide engine with local reader/API patches; split local runtime assets",
-      "base_commit": "8c8de379b906f0be246ee692de1b4140b19684dd",
-      "local_modifications": true,
-      "repair_version": "gated-page-retrieval-v1",
-      "patched_source_sha256": {
+      "commit": "d2f92a89ad48206e884e514fbe221b4bfc5e9b0c",
+      "transport": "Unchanged full Python/Pyodide engine; split local runtime assets",
+      "local_modifications": false,
+      "retrieval_repair": "Upstreamed in Combined MPLPB pull request #18 (gated-page-retrieval-v1)",
+      "retrieval_source_sha256": {
         "mplpb_combined/reader.py": "304c170fab15414c75111fddb277a8b50b4e62eacd86daa99dc071aba506c5ff",
         "mplpb_combined/killtest.py": "8b9b7c889626fe1bfe0f1aa87cb80698de2ae67db256e4355a6ce43508f88aa7",
         "mplpb_combined/retrieval.py": "35528e3645af096d957df51fdb39ca66decd1f5a0a98cf61061e4ff51408c1c4",
