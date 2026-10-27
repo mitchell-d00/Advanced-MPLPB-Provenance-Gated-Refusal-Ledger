@@ -1,5 +1,22 @@
 # Changelog
 
+## Repository and website — 2026-10-27
+
+No engine, corpus, benchmark or test changes.
+
+- Published the 0.2.0 release to GitHub and restored the 15 large files that were
+  missing from the first import (the MPLPB runtime bundles, the calculator page and
+  the upstream calculator test data). CI is green and every file matches its release hash.
+- Added the GitHub Pages site: the root `index.html` forwards to the app in `web/`,
+  and `.nojekyll` makes Pages serve dot-folders such as `.well-known/` unchanged.
+- Rewrote the README for the published repository: live site link, pinned upstream
+  commits and what changed in each, why this is a separate project, and the
+  current test and website setup. Removed the manual-upload instructions.
+- Corrected the Mitchell Tech console card from “Verified symbolic & numeric
+  paths” to “Verified numeric path”. The console only calls `calculate`.
+  Regenerated `ASSET_SHA256.json` and `RELEASE_SHA256.json`.
+- Reworded session-specific phrasing in `docs/RETRIEVAL_REPAIR.md`.
+
 ## 0.2.0 — 2026-10-27
 
 ### Retrieval implementation

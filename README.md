@@ -2,193 +2,215 @@
 
 **Version 0.2.0 · retrieval repair**
 
-Advanced MPLPB composes three existing Mitchell projects in one browser-local
-console. It retrieves declared pages with provenance, offers a separate strict
-supported-answer path, runs numeric calculations through Mitchell Tech, and
-checks finite conservation claims against the original Pendulums integrator.
-Decisions and failures are retained in an exportable, hash-linked local ledger.
+**[Open Advanced MPLPB](https://mitchell-d00.github.io/Advanced-MPLPB-Provenance-Gated-Refusal-Ledger/)**: it runs entirely in your browser, with no account, API key or server.
 
-## The three upstream projects
+Advanced MPLPB puts three existing Mitchell projects into one browser-local
+console. A question first goes to MPLPB's closed ledger of declared pages. Only
+an answer that MPLPB can support from a sealed, provenance-checked page is
+allowed to continue to numeric work in Mitchell Tech and conservation checks in
+the original Pendulums integrator. Every decision is written to an exportable,
+hash-linked local ledger, including every refusal, stop and failed check.
 
-| Project | Role in Advanced MPLPB | Repository | Live GitHub Pages site |
+> One owner returns. Two owners stop. No owner refuses.
+
+## Built from three projects
+
+| Project | What Advanced MPLPB uses | Repository | Live site |
 | --- | --- | --- | --- |
-| Combined MPLPB | Closed-corpus ownership, sealed pages, provenance, profiles and explicit refusals. Advanced MPLPB includes local retrieval repairs to its pinned Python engine. | [Combined MPLPB repository](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages) | [Open Combined MPLPB](https://mitchell-d00.github.io/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/) |
-| Mitchell Tech | Scientific/graphing calculator and agent-callable `window.MitchellTech`. This release uses its numeric `calculate` path; its bundled symbolic/CAS capabilities remain upstream features. | [Mitchell Tech repository](https://github.com/mitchell-d00/Mitchell-Tech-V120.2-A-self-teaching-scientific-and-graphing-calculator-) | [Open Mitchell Tech](https://mitchell-d00.github.io/Mitchell-Tech-V120.2-A-self-teaching-scientific-and-graphing-calculator-/) |
-| Pendulums | Original spherical-pendulum RK4 engine, projected constraints, measured energy and vertical angular momentum Jz. | [Pendulums repository](https://github.com/mitchell-d00/Pendulums) | [Open Pendulums](https://mitchell-d00.github.io/Pendulums/) |
+| **Combined MPLPB**: a closed local ledger of pages that answers only from those pages | The full Python engine in WebAssembly for page ownership, seals, provenance, delivery profiles and refusals, **with the local retrieval patches described below** | [Repository](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages) | [Open Combined MPLPB](https://mitchell-d00.github.io/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/) |
+| **Mitchell Tech V120.2**: a self-teaching scientific and graphing calculator | The unchanged calculator page and its numeric `window.MitchellTech.calculate` path, in radians. Its CAS, graphing and Mr. E tutor stay in the original app and are not called here. | [Repository](https://github.com/mitchell-d00/Mitchell-Tech-V120.2-A-self-teaching-scientific-and-graphing-calculator-) | [Open Mitchell Tech](https://mitchell-d00.github.io/Mitchell-Tech-V120.2-A-self-teaching-scientific-and-graphing-calculator-/) |
+| **Pendulums**: a top-down 3D spherical-pendulum sandbox | The unchanged `physics.js`: the 240 Hz RK4 integrator with projected constraints, measured energy E and vertical angular momentum Jz | [Repository](https://github.com/mitchell-d00/Pendulums) | [Open Pendulums](https://mitchell-d00.github.io/Pendulums/) |
 
-All three live links returned HTTP 200 on 2026-10-27. That verifies availability,
-not their current UI behavior or that upstream has adopted these local repairs.
-Advanced MPLPB uses the bundled same-origin engines; it does not call those
-remote sites to execute queries or calculations. Browser API objects are
-page-local JavaScript interfaces, not remotely callable HTTP services.
+Each project is pinned to an exact commit, and those commits are the current
+`main` of each repository as of 2026-10-27:
 
-## What was actually fixed
+| Project | Pinned commit | Copy in this repo | Changes |
+| --- | --- | --- | --- |
+| Combined MPLPB | `8c8de379` | `upstream/MPLPB/` → built into `web/vendor/mplpb/` | 6 patched files, listed with their hashes in [`src/pins.json`](src/pins.json); full diff in [`patches/retrieval-repair.patch`](patches/retrieval-repair.patch) |
+| Mitchell Tech | `07693fea` | `upstream/MitchellTech/` → `web/vendor/calculator/index.html` | None. The app file is byte-identical. Three test-output JSON files were regenerated by running the upstream tests. |
+| Pendulums | `39670130` | `upstream/Pendulums/` → `web/vendor/physics.js` | None. Byte-identical. |
 
-The previous package scored 20/56 because its new console sent the historical
+The live app uses these bundled same-origin copies. It never calls the three
+live sites to run a query or a calculation.
+
+## Why this is a separate project
+
+Each of the three projects stands alone and knows nothing about the others.
+Advanced MPLPB is the layer that connects them, and it makes changes that do
+not belong in any one upstream:
+
+- **It adds a cross-engine gate.** Calculator and physics work can only start
+  from an MPLPB answer that is supported, with intact source identity and quoted
+  body evidence. Neither the calculator nor the pendulum sandbox has a notion of
+  source authority, and MPLPB has no notion of numeric or dynamic checks.
+- **It carries retrieval patches that upstream MPLPB has not adopted.** The
+  reader and API changes below alter how Combined MPLPB's Python engine
+  selects pages. Keeping them here lets them be reviewed and measured against
+  the frozen benchmark without changing upstream's published behavior.
+- **It separates two contracts that upstream presents together.** *Retrieve
+  page* returns a cited page marked `answer_supported:false`. *Supported answer*
+  requires source support. Only the second can unlock composition.
+- **It keeps one ledger across all three engines.** Receipts for retrievals,
+  refusals, calculations, conservation checks and kill tests are hash-linked
+  in a single exportable session.
+- **It pins exact versions.** Upstream repositories keep changing. This repo
+  freezes the commits above and verifies the shipped files by SHA-256, so the
+  measured results stay reproducible.
+
+## What the retrieval repair fixed
+
+Version 0.1 scored 20/56 because its console sent the historical
 **page-retrieval** benchmark through MPLPB's narrower **supported-answer** API.
-That was an integration error. Replaying the unmodified legacy retrieval reader
-on exactly the same questions reproduces 50/56, also recorded upstream.
+That was an integration error. The unmodified legacy retrieval reader scores
+50/56 on the same questions, which matches the upstream record.
 
-This release repairs the retrieval implementation as well as the integration:
+Version 0.2.0 fixes the integration and the reader itself:
 
 1. A discourse wrapper such as “what does it mean if …” no longer adds the
-   irrelevant word “mean” to the contained page-lookup clause. Quantities,
-   polarity, subjects and other modifiers remain intact.
-2. If majority-scope and full-prose matching find no owner, a complete
-   multi-term semicolon-delimited `when-to-use` situation may select its declaring
-   page. All matching owners are retained. No ranking, synonym generator,
-   external source, probe-ID lookup or answer synthesis is used.
-3. Generic-topic matches refuse when their proposed owners omit a requested
-   term explicitly excluded by eligible pages. This is not a global exclusion:
-   a real owner containing that term can still claim it.
+   irrelevant word “mean” to the page lookup. Quantities, polarity, subjects and
+   modifiers are kept.
+2. When majority-scope and full-prose matching find no owner, a complete
+   multi-term `when-to-use` situation clause can select the page that declares it.
+   All matching owners are kept. There is no ranking, synonym generation, external
+   source, probe-ID lookup or answer synthesis.
+3. Generic-topic matches refuse when their proposed owners leave out a requested
+   term that eligible pages explicitly exclude. This is not a global ban: a real
+   owner of that term can still claim it.
 4. The new `MPLPB.retrieve` API checks the selected page against the existing
-   provenance gate. Rejection stops; it does not choose a replacement owner.
-5. The console distinguishes **Retrieve page** from **Supported answer**.
-   A retrieved page is marked `answer_supported:false` and cannot unlock the
-   composition path. Supported answers additionally require intact source
-   identity and quoted body evidence at the outer orchestration gate.
+   provenance gate. If the page is rejected, retrieval stops rather than choosing
+   another owner.
+5. The console separates **Retrieve page** from **Supported answer**.
 
 The corpus, all 56 questions, expected owner IDs, frozen hashes and existing test
-assertions were not changed to obtain the result.
+assertions were not changed to get this result.
 
 ## Measured results
 
-| Frozen set | Previous console on strict-answer path | Original retrieval reader | Repaired provenance-gated retrieval |
+| Frozen set | v0.1 console (strict-answer path) | Original retrieval reader | Repaired provenance-gated retrieval |
 | --- | ---: | ---: | ---: |
 | Historical 56 | 20/56 | 50/56 | **56/56** |
 | Additional historical 30 | 11/30 | 22/30 | **22/30** |
 | Adjacent historical 20 | 10/20 | 15/20 | **16/20** |
 
-The six repaired cases are `op02`, `om03`, `om04`, `om08`, `ot04`, and `ot07`.
-No previously correct retrieval case regressed across these 106 frozen probes.
-The additional sets still contain 12 mismatches, including three wrong page
-retrievals. They are listed individually in the report; they are not supported
-answers or hidden successes. The development set was used to design this repair,
-so 56/56 is a regression result, not independent generalization evidence.
+- The six repaired cases are `op02`, `om03`, `om04`, `om08`, `ot04` and `ot07`.
+  No previously correct case regressed across the 106 frozen probes.
+- 12 mismatches remain in the additional sets, including three wrong page
+  retrievals. They are listed in [the repair report](docs/RETRIEVAL_REPAIR.md).
+- The 56 were used to design the repair, so 56/56 is a regression result, not
+  evidence of independent generalization.
+- **56/56 is page retrieval, not 56 supported answers.** The strict-answer path
+  scores 22/56 and still declines all 32 questions that expect a page return.
 
-The strict-answer path scores 22/56 after the repair because two ambiguity/refusal
-outcomes improve. It still declines all 32 historical questions expecting a page
-return. **56/56 does not mean 56 supported semantic answers.**
+The benchmark is byte-identical to upstream commit
+`2af5a58711783ecffc95acb4b6113832c40d2780`, SHA-256
+`fd0f8b1d61a206dcbb612fdc7503ab339a09ec02aebf576b27554c1fb4cb9076`. Raw results
+are in [`evaluation/retrieval-repair/`](evaluation/retrieval-repair/).
 
-The exact benchmark was recovered from the distributed ZIP and verified against
-upstream commit `2af5a58711783ecffc95acb4b6113832c40d2780`:
+## Use it
 
-```text
-fd0f8b1d61a206dcbb612fdc7503ab339a09ec02aebf576b27554c1fb4cb9076
-```
+**Online:** open the [live site](https://mitchell-d00.github.io/Advanced-MPLPB-Provenance-Gated-Refusal-Ledger/).
+It loads the full engine, about 37 MB, once. After that, everything runs in the
+browser tab.
 
-Read [the full repair report](docs/RETRIEVAL_REPAIR.md),
-[the changelog](CHANGELOG.md), and the raw files under
-[evaluation/retrieval-repair](evaluation/retrieval-repair/).
-
-## Run locally
-
-Requires Python 3 for the local server and a current browser with WebAssembly,
-IndexedDB, Web Locks and local storage. No API key, npm install, CDN or build step
-is needed to run the included application.
+**Locally:** clone the repository and serve `web/`:
 
 ```sh
 python -m http.server 8000 --directory web
 ```
 
-Open http://localhost:8000. Use HTTPS for remote hosting. Opening `index.html`
-directly as a file does not support the split runtime's local fetches.
+Then open http://localhost:8000. Opening `web/index.html` directly as a file
+does not work, because the split runtime is loaded with local `fetch` requests.
+You need a current browser with WebAssembly, IndexedDB, Web Locks and local storage.
+
+**From code or an AI agent:** use `window.AdvancedMPLPB` in the open page:
+
+```js
+await AdvancedMPLPB.ready();
+await AdvancedMPLPB.retrieve('what does it mean if the guard has gone over', {corpus:'studio', profile:'internal'});
+await AdvancedMPLPB.query('What is Dungeons and Dragons?', {corpus:'logic', profile:'internal'});
+await AdvancedMPLPB.calculate('sin(pi/2)+2^3');
+await AdvancedMPLPB.checkDynamics({duration:10, damping:0});
+AdvancedMPLPB.exportSession();
+```
+
+This is a page-local JavaScript API, not a network service. See
+[docs/AGENT_API.md](docs/AGENT_API.md).
 
 ## Test and rebuild
 
-Tests require Python 3.10+ and Node.js 18+; Node 22 is used by CI.
+Requires Python 3.10+ and Node.js 18+. CI uses Python 3.13 and Node 22.
 
 ```sh
-python scripts/test.py
-python scripts/test.py --full
+python scripts/test.py            # composition, adversarial, integration and upstream Node suites
+python scripts/test.py --full     # adds all 655 upstream MPLPB Python tests (several minutes)
+python scripts/verify_assets.py   # SHA-256 check of every file in web/ and src/
 python scripts/evaluate_retrieval.py --output evaluation/current-retrieval.json
-python scripts/verify_assets.py
 ```
 
-`--full` includes all upstream MPLPB Python unittests and takes several minutes.
-Browser-only upstream suites require separately installed Playwright and Chromium;
-the included browser-availability report records the execution blockers here.
-The Node integration test executes the real Python bridge, calculator code and
-physics engine with DOM stubs. It does not test rendering or persistence APIs.
+Every push and pull request runs `test.py` and `verify_assets.py` in GitHub
+Actions (**Composition regression checks**).
+
+Running the upstream Mitchell Tech suites rewrites their result files under
+`upstream/MitchellTech/tests/`, with last-digit floating-point differences.
+Restore the committed copies before committing:
+`git checkout -- upstream/MitchellTech/tests`.
+
+Browser-only upstream suites need Playwright and Chromium installed separately.
+The Node integration test runs the real Python bridge, calculator code and
+physics engine with a stubbed DOM. It does not test rendering or browser storage.
+
+To rebuild the MPLPB runtime from `upstream/MPLPB/`:
 
 ```sh
-python scripts/build.py
+python scripts/build.py                                   # downloads the hash-pinned Pyodide 314.0.7 core
+python scripts/build.py --core-archive pyodide-core-314.0.7.tar.bz2   # offline
+python scripts/update_assets.py                           # record new hashes after an intentional change
+node scripts/test_wasm.mjs /path/to/extracted/pyodide evaluation/current-wasm.json
 ```
 
-The first rebuild downloads the upstream hash-pinned Pyodide archive. For an
-offline rebuild, pass `--core-archive /path/to/pyodide-core-314.0.7.tar.bz2`.
-Build-time network access is separate from app execution. The generated bundle
-contains actual patched Python files with a verified source manifest.
-After an intentional rebuild or edit, regenerate `ASSET_SHA256.json` using
-`python scripts/update_assets.py` before verifying the new release.
+## Website
 
-To exercise the packaged engine in actual WebAssembly, extract that same verified
-Pyodide archive and run:
+GitHub Pages publishes this repository from **main / (root)**, as Pendulums
+does, and redeploys on every push. The root [`index.html`](index.html) forwards
+to the app in `web/`, and `.nojekyll` makes Pages serve every file as-is.
 
-```sh
-node scripts/test_wasm.mjs /path/to/pyodide evaluation/current-wasm.json
-```
-
-## Create your GitHub repository by hand
-
-Create an empty repository on GitHub, extract this ZIP, and upload the contents
-of its `Advanced-MPLPB` folder. Preserve all subdirectories and hidden workflow
-files. The archive has no `.git` history, private hosting identity, credentials,
-saved user sessions or installed packages. One bulky archived upstream live-HTTP
-replay tar is omitted; `UPSTREAM_OMISSIONS.json` records its exact hash and source
-URL. All code, required corpora/runtime assets, original 56 probes, and repair
-evaluation results are included.
-
-If using Git locally after creating the empty repository:
-
-```sh
-git init
-git add .
-git commit -m "Add Advanced MPLPB retrieval repair"
-git branch -M main
-git remote add origin YOUR_REPOSITORY_GIT_URL
-git push -u origin main
-```
-
-The included CI runs tests on pushes and pull requests. It does not push source
-or publish a website for you. To host this new repo with GitHub Pages, choose
-**Settings → Pages → Source: GitHub Actions**, then manually run the
-**Publish GitHub Pages manually** workflow. It publishes `web/` as the site root;
-it does not rebuild or download the runtime. No new Advanced MPLPB live URL is
-claimed until you publish it.
+Alternatively, set **Settings → Pages → Source: GitHub Actions** and run the
+**Publish GitHub Pages manually** workflow. It publishes `web/` itself as the
+site root, without rebuilding anything.
 
 ## Repository layout
 
-- `src/`: editable console and orchestration.
-- `web/`: complete ready-to-serve application and embedded engines.
-- `upstream/`: upstream source snapshots; MPLPB has explicitly recorded local patches.
-- `tests/`: original composition guards, added adversarial tests and real-engine integration.
-- `scripts/`: build, regression, benchmark and asset-verification commands.
-- `evaluation/retrieval-repair/`: original benchmark, complete before/after outputs, case-level changes and test logs.
-- `docs/`: repair report, validation limits and API reference.
-- `patches/`: reviewable source patch against the original distributed ZIP.
-- `.github/workflows/`: test CI and manually triggered GitHub Pages deployment.
+| Path | Contents |
+| --- | --- |
+| `web/` | The complete app as served: console, orchestration and bundled engines |
+| `src/` | Editable console and orchestration sources (copied into `web/`) |
+| `upstream/` | Snapshots of the three projects at their pinned commits; MPLPB includes the recorded patches |
+| `patches/` | Reviewable diff of the MPLPB retrieval repair |
+| `tests/` | Composition guards, adversarial tests and real-engine integration |
+| `scripts/` | Test, build, benchmark, asset-hash and release-packaging commands |
+| `evaluation/retrieval-repair/` | Frozen benchmark, before/after outputs, per-case changes and test logs |
+| `docs/` | Repair report, validation limits and agent API |
+| `ASSET_SHA256.json` | Hashes of every shipped app file, checked by CI |
+| `RELEASE_SHA256.json` | Hashes of every file in the repository release |
+| `UPSTREAM_OMISSIONS.json` | One bulky upstream archive left out on purpose, with its hash and source URL |
 
-## Boundaries and remaining work
+## Limits
 
-One owner retrieves; two owners stop; no owner refuses. Retrieval does not prove
-semantic support, source truth or authenticated authorship. Composition still
-requires a supported source answer before calculator/physics work. The bundled
-D&D example exercises control flow and independent numerical checks; it is not
-a scientific relationship between a game definition and pendulum dynamics.
+- Retrieval does not prove semantic support, source truth or authorship. Composition
+  still requires a supported source answer before calculator or physics work.
+- The bundled Dungeons & Dragons example exercises control flow and independent
+  numeric checks. It is not a scientific link between a game definition and
+  pendulum dynamics.
+- The ledger is browser-local and exportable, not a shared or externally signed
+  log. A same-origin script can rewrite local storage. Hash chains show byte
+  consistency, not who created the content. Browser quota and the 2,000-record
+  cap limit storage, so export significant runs.
+- Browser rendering, IndexedDB, Web Locks and CORS were not tested automatically,
+  and independent human evaluation is still pending. The evaluation protocols are
+  in `web/protocols/`.
 
-The ledger is browser-local and exportable, not a public multi-user service or
-an externally authenticated log. A same-origin script can rewrite local storage;
-hash chains demonstrate byte consistency, not who created the content. Export
-significant runs. Browser quota and the 2,000-record application cap limit storage.
+## License
 
-Independent human conversation/retrieval evaluation remains pending. The upstream
-protocols are included verbatim under `web/protocols/`. Browser UI, CORS,
-IndexedDB and Web Locks must be tested separately from Node/Python/WASM evidence.
-
-## License and provenance
-
-Original orchestration files use the included MIT license. Upstream software,
-source corpora, embedded Python/Pyodide and other resources retain their original
-licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The MPLPB base commit
-is not represented as unmodified: `src/pins.json` records the local source hashes.
+The orchestration code is MIT-licensed ([LICENSE](LICENSE)). The three upstream
+projects, their corpora, the embedded Python/Pyodide runtime and other resources
+keep their own licenses. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
