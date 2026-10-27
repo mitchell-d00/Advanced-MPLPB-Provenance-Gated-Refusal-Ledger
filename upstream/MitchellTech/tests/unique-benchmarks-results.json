@@ -17855,8 +17855,8 @@
       "category": "Generated unique expressions",
       "name": "(9.41808)^(-2)",
       "pass": true,
-      "actual": 0.01127392781289057,
-      "expected": 0.01127392781289057
+      "actual": 0.011273927812890569,
+      "expected": 0.011273927812890569
     },
     {
       "id": "MT-002218",
@@ -19007,8 +19007,8 @@
       "category": "Generated unique expressions",
       "name": "(5.12669)^(-4)",
       "pass": true,
-      "actual": 0.0014476106532416203,
-      "expected": 0.0014476106532416203
+      "actual": 0.0014476106532416205,
+      "expected": 0.0014476106532416205
     },
     {
       "id": "MT-002362",
@@ -21311,8 +21311,8 @@
       "category": "Generated unique expressions",
       "name": "(2.21106)^(4)",
       "pass": true,
-      "actual": 23.900231717818393,
-      "expected": 23.900231717818393
+      "actual": 23.900231717818397,
+      "expected": 23.900231717818397
     },
     {
       "id": "MT-002650",
@@ -21503,8 +21503,8 @@
       "category": "Generated unique expressions",
       "name": "(7.7686)^(4)",
       "pass": true,
-      "actual": 3642.260818685225,
-      "expected": 3642.260818685225
+      "actual": 3642.2608186852244,
+      "expected": 3642.2608186852244
     },
     {
       "id": "MT-002674",
@@ -22719,8 +22719,8 @@
       "category": "Generated unique expressions",
       "name": "(9.01696)^(4)",
       "pass": true,
-      "actual": 6610.59532952279,
-      "expected": 6610.59532952279
+      "actual": 6610.595329522791,
+      "expected": 6610.595329522791
     },
     {
       "id": "MT-002826",
@@ -24895,8 +24895,8 @@
       "category": "Generated unique expressions",
       "name": "(7.31787)^(4)",
       "pass": true,
-      "actual": 2867.7333066736537,
-      "expected": 2867.7333066736537
+      "actual": 2867.733306673654,
+      "expected": 2867.733306673654
     },
     {
       "id": "MT-003098",
@@ -27327,8 +27327,8 @@
       "category": "Generated unique expressions",
       "name": "(7.40133)^(-3)",
       "pass": true,
-      "actual": 0.0024664407946454886,
-      "expected": 0.0024664407946454886
+      "actual": 0.002466440794645488,
+      "expected": 0.002466440794645488
     },
     {
       "id": "MT-003402",
@@ -28735,8 +28735,8 @@
       "category": "Generated unique expressions",
       "name": "(5.93486)^(-4)",
       "pass": true,
-      "actual": 0.0008060427673673549,
-      "expected": 0.0008060427673673549
+      "actual": 0.0008060427673673548,
+      "expected": 0.0008060427673673548
     },
     {
       "id": "MT-003578",
@@ -29311,8 +29311,8 @@
       "category": "Generated unique expressions",
       "name": "(11.63707)^(-3)",
       "pass": true,
-      "actual": 0.000634554692195065,
-      "expected": 0.000634554692195065
+      "actual": 0.0006345546921950651,
+      "expected": 0.0006345546921950651
     },
     {
       "id": "MT-003650",
@@ -30719,8 +30719,8 @@
       "category": "Generated unique expressions",
       "name": "(5.17191)^(4)",
       "pass": true,
-      "actual": 715.4904398876292,
-      "expected": 715.4904398876292
+      "actual": 715.4904398876291,
+      "expected": 715.4904398876291
     },
     {
       "id": "MT-003826",
@@ -31679,8 +31679,8 @@
       "category": "Generated unique expressions",
       "name": "(8.82239)^(4)",
       "pass": true,
-      "actual": 6058.219557323562,
-      "expected": 6058.219557323562
+      "actual": 6058.219557323561,
+      "expected": 6058.219557323561
     },
     {
       "id": "MT-003946",
@@ -31935,8 +31935,8 @@
       "category": "Generated unique expressions",
       "name": "(5.7452)^(3)",
       "pass": true,
-      "actual": 189.63367232940794,
-      "expected": 189.63367232940794
+      "actual": 189.63367232940797,
+      "expected": 189.63367232940797
     },
     {
       "id": "MT-003978",
@@ -32191,8 +32191,8 @@
       "category": "Generated unique expressions",
       "name": "(4.95743)^(-2)",
       "pass": true,
-      "actual": 0.040689918391592445,
-      "expected": 0.040689918391592445
+      "actual": 0.04068991839159245,
+      "expected": 0.04068991839159245
     },
     {
       "id": "MT-004010",
@@ -33535,8 +33535,8 @@
       "category": "Generated unique expressions",
       "name": "(1.31806)^(-2)",
       "pass": true,
-      "actual": 0.5756117347845198,
-      "expected": 0.5756117347845198
+      "actual": 0.5756117347845199,
+      "expected": 0.5756117347845199
     },
     {
       "id": "MT-004178",
@@ -34495,8 +34495,8 @@
       "category": "Generated unique expressions",
       "name": "(4.39188)^(-2)",
       "pass": true,
-      "actual": 0.05184406773743526,
-      "expected": 0.05184406773743526
+      "actual": 0.05184406773743525,
+      "expected": 0.05184406773743525
     },
     {
       "id": "MT-004298",
@@ -35455,8 +35455,8 @@
       "category": "Generated unique expressions",
       "name": "(6.81114)^(-2)",
       "pass": true,
-      "actual": 0.021555613393284254,
-      "expected": 0.021555613393284254
+      "actual": 0.021555613393284257,
+      "expected": 0.021555613393284257
     },
     {
       "id": "MT-004418",
@@ -37631,8 +37631,8 @@
       "category": "Generated unique expressions",
       "name": "(9.03605)^(-2)",
       "pass": true,
-      "actual": 0.012247367487995483,
-      "expected": 0.012247367487995483
+      "actual": 0.012247367487995481,
+      "expected": 0.012247367487995481
     },
     {
       "id": "MT-004690",
@@ -38719,8 +38719,8 @@
       "category": "Generated unique expressions",
       "name": "(1.18674)^(-2)",
       "pass": true,
-      "actual": 0.7100498472062338,
-      "expected": 0.7100498472062338
+      "actual": 0.7100498472062339,
+      "expected": 0.7100498472062339
     },
     {
       "id": "MT-004826",
@@ -39935,8 +39935,8 @@
       "category": "Generated unique expressions",
       "name": "(0.31046)^(-2)",
       "pass": true,
-      "actual": 10.37501405451279,
-      "expected": 10.37501405451279
+      "actual": 10.375014054512787,
+      "expected": 10.375014054512787
     },
     {
       "id": "MT-004978",
@@ -41023,8 +41023,8 @@
       "category": "Generated unique expressions",
       "name": "(6.63662)^(-2)",
       "pass": true,
-      "actual": 0.022704194417061695,
-      "expected": 0.022704194417061695
+      "actual": 0.022704194417061698,
+      "expected": 0.022704194417061698
     },
     {
       "id": "MT-005114",
@@ -41215,8 +41215,8 @@
       "category": "Generated unique expressions",
       "name": "(7.34449)^(4)",
       "pass": true,
-      "actual": 2909.6890212387816,
-      "expected": 2909.6890212387816
+      "actual": 2909.689021238782,
+      "expected": 2909.689021238782
     },
     {
       "id": "MT-005138",
@@ -41919,8 +41919,8 @@
       "category": "Generated unique expressions",
       "name": "(6.32413)^(-3)",
       "pass": true,
-      "actual": 0.003953644658112876,
-      "expected": 0.003953644658112876
+      "actual": 0.003953644658112877,
+      "expected": 0.003953644658112877
     },
     {
       "id": "MT-005226",
@@ -43007,8 +43007,8 @@
       "category": "Generated unique expressions",
       "name": "(4.69445)^(-3)",
       "pass": true,
-      "actual": 0.009665978984830043,
-      "expected": 0.009665978984830043
+      "actual": 0.00966597898483004,
+      "expected": 0.00966597898483004
     },
     {
       "id": "MT-005362",
@@ -43199,8 +43199,8 @@
       "category": "Generated unique expressions",
       "name": "(2.97581)^(3)",
       "pass": true,
-      "actual": 26.352122249973945,
-      "expected": 26.352122249973945
+      "actual": 26.35212224997394,
+      "expected": 26.35212224997394
     },
     {
       "id": "MT-005386",
@@ -45183,8 +45183,8 @@
       "category": "Generated unique expressions",
       "name": "(5.33646)^(3)",
       "pass": true,
-      "actual": 151.97066903987013,
-      "expected": 151.97066903987013
+      "actual": 151.9706690398701,
+      "expected": 151.9706690398701
     },
     {
       "id": "MT-005634",
@@ -45759,8 +45759,8 @@
       "category": "Generated unique expressions",
       "name": "(10.40788)^(4)",
       "pass": true,
-      "actual": 11734.081630420722,
-      "expected": 11734.081630420722
+      "actual": 11734.081630420724,
+      "expected": 11734.081630420724
     },
     {
       "id": "MT-005706",
@@ -47231,8 +47231,8 @@
       "category": "Generated unique expressions",
       "name": "(11.85103)^(-2)",
       "pass": true,
-      "actual": 0.0071201280635232785,
-      "expected": 0.0071201280635232785
+      "actual": 0.007120128063523278,
+      "expected": 0.007120128063523278
     },
     {
       "id": "MT-005890",
@@ -47295,8 +47295,8 @@
       "category": "Generated unique expressions",
       "name": "(11.99898)^(-3)",
       "pass": true,
-      "actual": 0.0005788512982385081,
-      "expected": 0.0005788512982385081
+      "actual": 0.0005788512982385082,
+      "expected": 0.0005788512982385082
     },
     {
       "id": "MT-005898",
@@ -52223,8 +52223,8 @@
       "category": "Generated unique expressions",
       "name": "(7.66431)^(-3)",
       "pass": true,
-      "actual": 0.0022211649552710665,
-      "expected": 0.0022211649552710665
+      "actual": 0.002221164955271066,
+      "expected": 0.002221164955271066
     },
     {
       "id": "MT-006514",
@@ -52351,8 +52351,8 @@
       "category": "Generated unique expressions",
       "name": "(2.55348)^(-2)",
       "pass": true,
-      "actual": 0.15336811462551497,
-      "expected": 0.15336811462551497
+      "actual": 0.15336811462551495,
+      "expected": 0.15336811462551495
     },
     {
       "id": "MT-006530",
@@ -53951,8 +53951,8 @@
       "category": "Generated unique expressions",
       "name": "(7.84591)^(4)",
       "pass": true,
-      "actual": 3789.42475788101,
-      "expected": 3789.42475788101
+      "actual": 3789.4247578810105,
+      "expected": 3789.4247578810105
     },
     {
       "id": "MT-006730",
@@ -55615,8 +55615,8 @@
       "category": "Generated unique expressions",
       "name": "(2.82996)^(3)",
       "pass": true,
-      "actual": 22.66422594558393,
-      "expected": 22.66422594558393
+      "actual": 22.664225945583933,
+      "expected": 22.664225945583933
     },
     {
       "id": "MT-006938",
@@ -57471,8 +57471,8 @@
       "category": "Generated unique expressions",
       "name": "(10.31857)^(-4)",
       "pass": true,
-      "actual": 0.00008821083662733582,
-      "expected": 0.00008821083662733582
+      "actual": 0.00008821083662733583,
+      "expected": 0.00008821083662733583
     },
     {
       "id": "MT-007170",
@@ -58815,8 +58815,8 @@
       "category": "Generated unique expressions",
       "name": "(6.37022)^(-4)",
       "pass": true,
-      "actual": 0.0006072706265466119,
-      "expected": 0.0006072706265466119
+      "actual": 0.0006072706265466118,
+      "expected": 0.0006072706265466118
     },
     {
       "id": "MT-007338",
@@ -59007,8 +59007,8 @@
       "category": "Generated unique expressions",
       "name": "(1.42641)^(3)",
       "pass": true,
-      "actual": 2.9022386706807204,
-      "expected": 2.9022386706807204
+      "actual": 2.902238670680721,
+      "expected": 2.902238670680721
     },
     {
       "id": "MT-007362",
@@ -62527,8 +62527,8 @@
       "category": "Generated unique expressions",
       "name": "(3.43395)^(3)",
       "pass": true,
-      "actual": 40.493181676354865,
-      "expected": 40.493181676354865
+      "actual": 40.49318167635487,
+      "expected": 40.49318167635487
     },
     {
       "id": "MT-007802",
@@ -65791,8 +65791,8 @@
       "category": "Generated unique expressions",
       "name": "(8.6362)^(-3)",
       "pass": true,
-      "actual": 0.0015525011339369492,
-      "expected": 0.0015525011339369492
+      "actual": 0.001552501133936949,
+      "expected": 0.001552501133936949
     },
     {
       "id": "MT-008210",
@@ -67455,8 +67455,8 @@
       "category": "Generated unique expressions",
       "name": "(11.83877)^(-3)",
       "pass": true,
-      "actual": 0.0006026709389299976,
-      "expected": 0.0006026709389299976
+      "actual": 0.0006026709389299975,
+      "expected": 0.0006026709389299975
     },
     {
       "id": "MT-008418",
@@ -68543,8 +68543,8 @@
       "category": "Generated unique expressions",
       "name": "(3.53854)^(-2)",
       "pass": true,
-      "actual": 0.07986413301827361,
-      "expected": 0.07986413301827361
+      "actual": 0.0798641330182736,
+      "expected": 0.0798641330182736
     },
     {
       "id": "MT-008554",
@@ -70335,8 +70335,8 @@
       "category": "Generated unique expressions",
       "name": "(9.70141)^(-4)",
       "pass": true,
-      "actual": 0.00011289132326030207,
-      "expected": 0.00011289132326030207
+      "actual": 0.00011289132326030206,
+      "expected": 0.00011289132326030206
     },
     {
       "id": "MT-008778",
@@ -70911,8 +70911,8 @@
       "category": "Generated unique expressions",
       "name": "(6.00838)^(3)",
       "pass": true,
-      "actual": 216.90630462768047,
-      "expected": 216.90630462768047
+      "actual": 216.90630462768044,
+      "expected": 216.90630462768044
     },
     {
       "id": "MT-008850",
@@ -71359,8 +71359,8 @@
       "category": "Generated unique expressions",
       "name": "(5.56776)^(-3)",
       "pass": true,
-      "actual": 0.005793733039896566,
-      "expected": 0.005793733039896566
+      "actual": 0.005793733039896567,
+      "expected": 0.005793733039896567
     },
     {
       "id": "MT-008906",
@@ -72767,8 +72767,8 @@
       "category": "Generated unique expressions",
       "name": "(1.81119)^(4)",
       "pass": true,
-      "actual": 10.761084625073817,
-      "expected": 10.761084625073817
+      "actual": 10.761084625073819,
+      "expected": 10.761084625073819
     },
     {
       "id": "MT-009082",
@@ -72895,8 +72895,8 @@
       "category": "Generated unique expressions",
       "name": "(3.60319)^(3)",
       "pass": true,
-      "actual": 46.78013713434176,
-      "expected": 46.78013713434176
+      "actual": 46.780137134341764,
+      "expected": 46.780137134341764
     },
     {
       "id": "MT-009098",
@@ -74815,8 +74815,8 @@
       "category": "Generated unique expressions",
       "name": "(10.28975)^(4)",
       "pass": true,
-      "actual": 11210.353125126894,
-      "expected": 11210.353125126894
+      "actual": 11210.353125126892,
+      "expected": 11210.353125126892
     },
     {
       "id": "MT-009338",
@@ -77311,8 +77311,8 @@
       "category": "Generated unique expressions",
       "name": "(9.60587)^(-2)",
       "pass": true,
-      "actual": 0.010837437110063592,
-      "expected": 0.010837437110063592
+      "actual": 0.010837437110063594,
+      "expected": 0.010837437110063594
     },
     {
       "id": "MT-009650",
@@ -79423,8 +79423,8 @@
       "category": "Generated unique expressions",
       "name": "(0.80689)^(-2)",
       "pass": true,
-      "actual": 1.5359296833795337,
-      "expected": 1.5359296833795337
+      "actual": 1.535929683379534,
+      "expected": 1.535929683379534
     },
     {
       "id": "MT-009914",
@@ -83711,8 +83711,8 @@
       "category": "Generated unique expressions",
       "name": "(4.5626)^(-2)",
       "pass": true,
-      "actual": 0.04803692596192921,
-      "expected": 0.04803692596192921
+      "actual": 0.04803692596192922,
+      "expected": 0.04803692596192922
     },
     {
       "id": "MT-010450",
@@ -84863,8 +84863,8 @@
       "category": "Generated unique expressions",
       "name": "(6.54247)^(-2)",
       "pass": true,
-      "actual": 0.0233623496904437,
-      "expected": 0.0233623496904437
+      "actual": 0.023362349690443703,
+      "expected": 0.023362349690443703
     },
     {
       "id": "MT-010594",
@@ -85247,8 +85247,8 @@
       "category": "Generated unique expressions",
       "name": "(6.7336)^(-3)",
       "pass": true,
-      "actual": 0.0032753525830417378,
-      "expected": 0.0032753525830417378
+      "actual": 0.003275352583041738,
+      "expected": 0.003275352583041738
     },
     {
       "id": "MT-010642",
@@ -85887,8 +85887,8 @@
       "category": "Generated unique expressions",
       "name": "(8.82159)^(-4)",
       "pass": true,
-      "actual": 0.00016512488302546942,
-      "expected": 0.00016512488302546942
+      "actual": 0.00016512488302546945,
+      "expected": 0.00016512488302546945
     },
     {
       "id": "MT-010722",
@@ -86975,8 +86975,8 @@
       "category": "Generated unique expressions",
       "name": "(2.56402)^(-4)",
       "pass": true,
-      "actual": 0.023137389951890255,
-      "expected": 0.023137389951890255
+      "actual": 0.02313738995189026,
+      "expected": 0.02313738995189026
     },
     {
       "id": "MT-010858",
@@ -88383,8 +88383,8 @@
       "category": "Generated unique expressions",
       "name": "(9.54267)^(-3)",
       "pass": true,
-      "actual": 0.0011507746420989918,
-      "expected": 0.0011507746420989918
+      "actual": 0.0011507746420989916,
+      "expected": 0.0011507746420989916
     },
     {
       "id": "MT-011034",
@@ -90303,8 +90303,8 @@
       "category": "Generated unique expressions",
       "name": "(4.41944)^(3)",
       "pass": true,
-      "actual": 86.31807100616038,
-      "expected": 86.31807100616038
+      "actual": 86.31807100616037,
+      "expected": 86.31807100616037
     },
     {
       "id": "MT-011274",
@@ -91007,8 +91007,8 @@
       "category": "Generated unique expressions",
       "name": "(3.79328)^(3)",
       "pass": true,
-      "actual": 54.581404102295565,
-      "expected": 54.581404102295565
+      "actual": 54.58140410229556,
+      "expected": 54.58140410229556
     },
     {
       "id": "MT-011362",
@@ -91391,8 +91391,8 @@
       "category": "Generated unique expressions",
       "name": "(10.08481)^(4)",
       "pass": true,
-      "actual": 10343.580094033394,
-      "expected": 10343.580094033394
+      "actual": 10343.580094033396,
+      "expected": 10343.580094033396
     },
     {
       "id": "MT-011410",
@@ -91903,8 +91903,8 @@
       "category": "Generated unique expressions",
       "name": "(2.5755)^(-4)",
       "pass": true,
-      "actual": 0.02272761077124695,
-      "expected": 0.02272761077124695
+      "actual": 0.022727610771246947,
+      "expected": 0.022727610771246947
     },
     {
       "id": "MT-011474",
@@ -94335,8 +94335,8 @@
       "category": "Generated unique expressions",
       "name": "(9.88263)^(-2)",
       "pass": true,
-      "actual": 0.010238938351707073,
-      "expected": 0.010238938351707073
+      "actual": 0.010238938351707074,
+      "expected": 0.010238938351707074
     },
     {
       "id": "MT-011778",
@@ -94847,8 +94847,8 @@
       "category": "Generated unique expressions",
       "name": "(5.41673)^(4)",
       "pass": true,
-      "actual": 860.8921621644618,
-      "expected": 860.8921621644618
+      "actual": 860.8921621644616,
+      "expected": 860.8921621644616
     },
     {
       "id": "MT-011842",
@@ -95295,8 +95295,8 @@
       "category": "Generated unique expressions",
       "name": "(11.85757)^(4)",
       "pass": true,
-      "actual": 19768.91292880424,
-      "expected": 19768.91292880424
+      "actual": 19768.912928804242,
+      "expected": 19768.912928804242
     },
     {
       "id": "MT-011898",
@@ -97279,8 +97279,8 @@
       "category": "Generated unique expressions",
       "name": "(8.87037)^(-4)",
       "pass": true,
-      "actual": 0.0001615225112658948,
-      "expected": 0.0001615225112658948
+      "actual": 0.00016152251126589476,
+      "expected": 0.00016152251126589476
     },
     {
       "id": "MT-012146",
@@ -99007,8 +99007,8 @@
       "category": "Generated unique expressions",
       "name": "(5.97528)^(-2)",
       "pass": true,
-      "actual": 0.028008089010720008,
-      "expected": 0.028008089010720008
+      "actual": 0.02800808901072001,
+      "expected": 0.02800808901072001
     },
     {
       "id": "MT-012362",
@@ -100223,8 +100223,8 @@
       "category": "Generated unique expressions",
       "name": "(10.63291)^(3)",
       "pass": true,
-      "actual": 1202.1437800093513,
-      "expected": 1202.1437800093513
+      "actual": 1202.1437800093515,
+      "expected": 1202.1437800093515
     },
     {
       "id": "MT-012514",
@@ -102655,8 +102655,8 @@
       "category": "Generated unique expressions",
       "name": "(9.40004)^(-1)",
       "pass": true,
-      "actual": 0.10638252603180412,
-      "expected": 0.10638252603180412
+      "actual": 0.1063825260318041,
+      "expected": 0.1063825260318041
     },
     {
       "id": "MT-012818",
@@ -103167,8 +103167,8 @@
       "category": "Generated unique expressions",
       "name": "(10.1071)^(-2)",
       "pass": true,
-      "actual": 0.009789192633264741,
-      "expected": 0.009789192633264741
+      "actual": 0.009789192633264743,
+      "expected": 0.009789192633264743
     },
     {
       "id": "MT-012882",
@@ -103935,8 +103935,8 @@
       "category": "Generated unique expressions",
       "name": "(8.31084)^(-3)",
       "pass": true,
-      "actual": 0.0017420685319379549,
-      "expected": 0.0017420685319379549
+      "actual": 0.001742068531937955,
+      "expected": 0.001742068531937955
     },
     {
       "id": "MT-012978",
@@ -105599,8 +105599,8 @@
       "category": "Generated unique expressions",
       "name": "(7.45036)^(-4)",
       "pass": true,
-      "actual": 0.0003245569899080459,
-      "expected": 0.0003245569899080459
+      "actual": 0.00032455698990804593,
+      "expected": 0.00032455698990804593
     },
     {
       "id": "MT-013186",
@@ -108415,8 +108415,8 @@
       "category": "Generated unique expressions",
       "name": "(8.95353)^(-3)",
       "pass": true,
-      "actual": 0.0013932117247611128,
-      "expected": 0.0013932117247611128
+      "actual": 0.0013932117247611126,
+      "expected": 0.0013932117247611126
     },
     {
       "id": "MT-013538",
@@ -108479,8 +108479,8 @@
       "category": "Generated unique expressions",
       "name": "(2.96199)^(3)",
       "pass": true,
-      "actual": 25.9866779255686,
-      "expected": 25.9866779255686
+      "actual": 25.986677925568603,
+      "expected": 25.986677925568603
     },
     {
       "id": "MT-013546",
@@ -108735,8 +108735,8 @@
       "category": "Generated unique expressions",
       "name": "(9.48143)^(-2)",
       "pass": true,
-      "actual": 0.01112377802351153,
-      "expected": 0.01112377802351153
+      "actual": 0.011123778023511529,
+      "expected": 0.011123778023511529
     },
     {
       "id": "MT-013578",
@@ -109695,8 +109695,8 @@
       "category": "Generated unique expressions",
       "name": "(8.46362)^(-2)",
       "pass": true,
-      "actual": 0.013960072948062108,
-      "expected": 0.013960072948062108
+      "actual": 0.013960072948062107,
+      "expected": 0.013960072948062107
     },
     {
       "id": "MT-013698",
@@ -110015,8 +110015,8 @@
       "category": "Generated unique expressions",
       "name": "(8.7091)^(-2)",
       "pass": true,
-      "actual": 0.013184189768915777,
-      "expected": 0.013184189768915777
+      "actual": 0.013184189768915779,
+      "expected": 0.013184189768915779
     },
     {
       "id": "MT-013738",
@@ -110463,8 +110463,8 @@
       "category": "Generated unique expressions",
       "name": "(7.14725)^(-4)",
       "pass": true,
-      "actual": 0.00038321641760390493,
-      "expected": 0.00038321641760390493
+      "actual": 0.000383216417603905,
+      "expected": 0.000383216417603905
     },
     {
       "id": "MT-013794",
@@ -111423,8 +111423,8 @@
       "category": "Generated unique expressions",
       "name": "(1.89958)^(4)",
       "pass": true,
-      "actual": 13.020580700260965,
-      "expected": 13.020580700260965
+      "actual": 13.020580700260963,
+      "expected": 13.020580700260963
     },
     {
       "id": "MT-013914",
@@ -112255,8 +112255,8 @@
       "category": "Generated unique expressions",
       "name": "(1.55662)^(4)",
       "pass": true,
-      "actual": 5.8712479893752505,
-      "expected": 5.8712479893752505
+      "actual": 5.87124798937525,
+      "expected": 5.87124798937525
     },
     {
       "id": "MT-014018",
@@ -113151,8 +113151,8 @@
       "category": "Generated unique expressions",
       "name": "(6.01595)^(4)",
       "pass": true,
-      "actual": 1309.8358483899979,
-      "expected": 1309.8358483899979
+      "actual": 1309.8358483899976,
+      "expected": 1309.8358483899976
     },
     {
       "id": "MT-014130",
@@ -113535,8 +113535,8 @@
       "category": "Generated unique expressions",
       "name": "(1.48438)^(4)",
       "pass": true,
-      "actual": 4.85490098271042,
-      "expected": 4.85490098271042
+      "actual": 4.8549009827104195,
+      "expected": 4.8549009827104195
     },
     {
       "id": "MT-014178",
@@ -114047,8 +114047,8 @@
       "category": "Generated unique expressions",
       "name": "(4.44034)^(4)",
       "pass": true,
-      "actual": 388.74507723629097,
-      "expected": 388.74507723629097
+      "actual": 388.745077236291,
+      "expected": 388.745077236291
     },
     {
       "id": "MT-014242",
@@ -115583,8 +115583,8 @@
       "category": "Generated unique expressions",
       "name": "(10.27931)^(4)",
       "pass": true,
-      "actual": 11164.926136319893,
-      "expected": 11164.926136319893
+      "actual": 11164.926136319891,
+      "expected": 11164.926136319891
     },
     {
       "id": "MT-014434",
@@ -115839,8 +115839,8 @@
       "category": "Generated unique expressions",
       "name": "(4.4035)^(-3)",
       "pass": true,
-      "actual": 0.01171132404939914,
-      "expected": 0.01171132404939914
+      "actual": 0.011711324049399138,
+      "expected": 0.011711324049399138
     },
     {
       "id": "MT-014466",
@@ -116159,8 +116159,8 @@
       "category": "Generated unique expressions",
       "name": "(9.39087)^(-3)",
       "pass": true,
-      "actual": 0.0012074871406537644,
-      "expected": 0.0012074871406537644
+      "actual": 0.0012074871406537646,
+      "expected": 0.0012074871406537646
     },
     {
       "id": "MT-014506",
@@ -117311,8 +117311,8 @@
       "category": "Generated unique expressions",
       "name": "(9.76177)^(-3)",
       "pass": true,
-      "actual": 0.0010750144137800142,
-      "expected": 0.0010750144137800142
+      "actual": 0.001075014413780014,
+      "expected": 0.001075014413780014
     },
     {
       "id": "MT-014650",
@@ -119167,8 +119167,8 @@
       "category": "Generated unique expressions",
       "name": "(2.12982)^(3)",
       "pass": true,
-      "actual": 9.661147281030168,
-      "expected": 9.661147281030168
+      "actual": 9.66114728103017,
+      "expected": 9.66114728103017
     },
     {
       "id": "MT-014882",
@@ -120639,8 +120639,8 @@
       "category": "Generated unique expressions",
       "name": "(8.85253)^(4)",
       "pass": true,
-      "actual": 6141.431734575259,
-      "expected": 6141.431734575259
+      "actual": 6141.43173457526,
+      "expected": 6141.43173457526
     },
     {
       "id": "MT-015066",
@@ -123903,8 +123903,8 @@
       "category": "Generated unique expressions",
       "name": "(8.60468)^(-4)",
       "pass": true,
-      "actual": 0.0001824152338017159,
-      "expected": 0.0001824152338017159
+      "actual": 0.00018241523380171587,
+      "expected": 0.00018241523380171587
     },
     {
       "id": "MT-015474",
@@ -125119,8 +125119,8 @@
       "category": "Generated unique expressions",
       "name": "(0.89046)^(4)",
       "pass": true,
-      "actual": 0.6287205589567211,
-      "expected": 0.6287205589567211
+      "actual": 0.628720558956721,
+      "expected": 0.628720558956721
     },
     {
       "id": "MT-015626",
@@ -125375,8 +125375,8 @@
       "category": "Generated unique expressions",
       "name": "(5.96043)^(-4)",
       "pass": true,
-      "actual": 0.0007922999568117947,
-      "expected": 0.0007922999568117947
+      "actual": 0.0007922999568117948,
+      "expected": 0.0007922999568117948
     },
     {
       "id": "MT-015658",
@@ -125631,8 +125631,8 @@
       "category": "Generated unique expressions",
       "name": "(3.27133)^(-2)",
       "pass": true,
-      "actual": 0.09344397126654963,
-      "expected": 0.09344397126654963
+      "actual": 0.09344397126654964,
+      "expected": 0.09344397126654964
     },
     {
       "id": "MT-015690",
@@ -127423,8 +127423,8 @@
       "category": "Generated unique expressions",
       "name": "(6.51422)^(-4)",
       "pass": true,
-      "actual": 0.0005553289490640597,
-      "expected": 0.0005553289490640597
+      "actual": 0.0005553289490640598,
+      "expected": 0.0005553289490640598
     },
     {
       "id": "MT-015914",
@@ -129471,8 +129471,8 @@
       "category": "Generated unique expressions",
       "name": "(11.524)^(-3)",
       "pass": true,
-      "actual": 0.0006534167319132687,
-      "expected": 0.0006534167319132687
+      "actual": 0.0006534167319132688,
+      "expected": 0.0006534167319132688
     },
     {
       "id": "MT-016170",
@@ -129983,8 +129983,8 @@
       "category": "Generated unique expressions",
       "name": "(0.4454)^(3)",
       "pass": true,
-      "actual": 0.088358968664,
-      "expected": 0.088358968664
+      "actual": 0.08835896866400002,
+      "expected": 0.08835896866400002
     },
     {
       "id": "MT-016234",
@@ -130815,8 +130815,8 @@
       "category": "Generated unique expressions",
       "name": "(8.35351)^(4)",
       "pass": true,
-      "actual": 4869.40600918852,
-      "expected": 4869.40600918852
+      "actual": 4869.406009188519,
+      "expected": 4869.406009188519
     },
     {
       "id": "MT-016338",
@@ -131135,8 +131135,8 @@
       "category": "Generated unique expressions",
       "name": "(1.85362)^(4)",
       "pass": true,
-      "actual": 11.805457630066392,
-      "expected": 11.805457630066392
+      "actual": 11.805457630066394,
+      "expected": 11.805457630066394
     },
     {
       "id": "MT-016378",
@@ -131263,8 +131263,8 @@
       "category": "Generated unique expressions",
       "name": "(9.00939)^(-2)",
       "pass": true,
-      "actual": 0.012319957955922532,
-      "expected": 0.012319957955922532
+      "actual": 0.012319957955922533,
+      "expected": 0.012319957955922533
     },
     {
       "id": "MT-016394",
@@ -134335,8 +134335,8 @@
       "category": "Generated unique expressions",
       "name": "(2.08456)^(3)",
       "pass": true,
-      "actual": 9.05822699888282,
-      "expected": 9.05822699888282
+      "actual": 9.058226998882818,
+      "expected": 9.058226998882818
     },
     {
       "id": "MT-016778",
@@ -135295,8 +135295,8 @@
       "category": "Generated unique expressions",
       "name": "(5.91425)^(-3)",
       "pass": true,
-      "actual": 0.004833936758978842,
-      "expected": 0.004833936758978842
+      "actual": 0.004833936758978843,
+      "expected": 0.004833936758978843
     },
     {
       "id": "MT-016898",
@@ -136703,8 +136703,8 @@
       "category": "Generated unique expressions",
       "name": "(8.81073)^(-2)",
       "pass": true,
-      "actual": 0.01288178998717283,
-      "expected": 0.01288178998717283
+      "actual": 0.012881789987172832,
+      "expected": 0.012881789987172832
     },
     {
       "id": "MT-017074",
@@ -140927,8 +140927,8 @@
       "category": "Generated unique expressions",
       "name": "(1.1263)^(-4)",
       "pass": true,
-      "actual": 0.6214177634309446,
-      "expected": 0.6214177634309446
+      "actual": 0.6214177634309447,
+      "expected": 0.6214177634309447
     },
     {
       "id": "MT-017602",
@@ -141759,8 +141759,8 @@
       "category": "Generated unique expressions",
       "name": "(10.58632)^(-2)",
       "pass": true,
-      "actual": 0.008922980930665014,
-      "expected": 0.008922980930665014
+      "actual": 0.008922980930665016,
+      "expected": 0.008922980930665016
     },
     {
       "id": "MT-017706",
@@ -141951,8 +141951,8 @@
       "category": "Generated unique expressions",
       "name": "(6.40042)^(-4)",
       "pass": true,
-      "actual": 0.0005958900112275805,
-      "expected": 0.0005958900112275805
+      "actual": 0.0005958900112275804,
+      "expected": 0.0005958900112275804
     },
     {
       "id": "MT-017730",
@@ -144191,8 +144191,8 @@
       "category": "Generated unique expressions",
       "name": "(2.22889)^(-3)",
       "pass": true,
-      "actual": 0.09030963619715995,
-      "expected": 0.09030963619715995
+      "actual": 0.09030963619715994,
+      "expected": 0.09030963619715994
     },
     {
       "id": "MT-018010",
@@ -144319,8 +144319,8 @@
       "category": "Generated unique expressions",
       "name": "(2.44567)^(-2)",
       "pass": true,
-      "actual": 0.16718768622297087,
-      "expected": 0.16718768622297087
+      "actual": 0.1671876862229709,
+      "expected": 0.1671876862229709
     },
     {
       "id": "MT-018026",
@@ -146175,8 +146175,8 @@
       "category": "Generated unique expressions",
       "name": "(5.09082)^(4)",
       "pass": true,
-      "actual": 671.662291055985,
-      "expected": 671.662291055985
+      "actual": 671.6622910559848,
+      "expected": 671.6622910559848
     },
     {
       "id": "MT-018258",
@@ -147839,8 +147839,8 @@
       "category": "Generated unique expressions",
       "name": "(2.18236)^(-4)",
       "pass": true,
-      "actual": 0.04408536371288929,
-      "expected": 0.04408536371288929
+      "actual": 0.0440853637128893,
+      "expected": 0.0440853637128893
     },
     {
       "id": "MT-018466",
@@ -148095,8 +148095,8 @@
       "category": "Generated unique expressions",
       "name": "(10.06328)^(4)",
       "pass": true,
-      "actual": 10255.532766906872,
-      "expected": 10255.532766906872
+      "actual": 10255.53276690687,
+      "expected": 10255.53276690687
     },
     {
       "id": "MT-018498",
@@ -150015,8 +150015,8 @@
       "category": "Generated unique expressions",
       "name": "(10.20978)^(-2)",
       "pass": true,
-      "actual": 0.009593282462967416,
-      "expected": 0.009593282462967416
+      "actual": 0.009593282462967418,
+      "expected": 0.009593282462967418
     },
     {
       "id": "MT-018738",
@@ -153343,8 +153343,8 @@
       "category": "Generated unique expressions",
       "name": "(10.61492)^(-3)",
       "pass": true,
-      "actual": 0.000836083829098323,
-      "expected": 0.000836083829098323
+      "actual": 0.0008360838290983229,
+      "expected": 0.0008360838290983229
     },
     {
       "id": "MT-019154",
@@ -154687,8 +154687,8 @@
       "category": "Generated unique expressions",
       "name": "(8.34177)^(-4)",
       "pass": true,
-      "actual": 0.00020652239599233191,
-      "expected": 0.00020652239599233191
+      "actual": 0.00020652239599233194,
+      "expected": 0.00020652239599233194
     },
     {
       "id": "MT-019322",
@@ -155135,8 +155135,8 @@
       "category": "Generated unique expressions",
       "name": "(5.94354)^(3)",
       "pass": true,
-      "actual": 209.95951918947384,
-      "expected": 209.95951918947384
+      "actual": 209.9595191894738,
+      "expected": 209.9595191894738
     },
     {
       "id": "MT-019378",
@@ -156031,8 +156031,8 @@
       "category": "Generated unique expressions",
       "name": "(9.65921)^(-3)",
       "pass": true,
-      "actual": 0.0011096222986767615,
-      "expected": 0.0011096222986767615
+      "actual": 0.0011096222986767617,
+      "expected": 0.0011096222986767617
     },
     {
       "id": "MT-019490",
@@ -156287,8 +156287,8 @@
       "category": "Generated unique expressions",
       "name": "(10.09204)^(-2)",
       "pass": true,
-      "actual": 0.009818430575213987,
-      "expected": 0.009818430575213987
+      "actual": 0.009818430575213989,
+      "expected": 0.009818430575213989
     },
     {
       "id": "MT-019522",
@@ -157311,8 +157311,8 @@
       "category": "Generated unique expressions",
       "name": "(4.58308)^(-3)",
       "pass": true,
-      "actual": 0.01038789821485266,
-      "expected": 0.01038789821485266
+      "actual": 0.010387898214852661,
+      "expected": 0.010387898214852661
     },
     {
       "id": "MT-019650",
@@ -161407,8 +161407,8 @@
       "category": "Generated unique expressions",
       "name": "(1.35342)^(4)",
       "pass": true,
-      "actual": 3.355292296279922,
-      "expected": 3.355292296279922
+      "actual": 3.3552922962799214,
+      "expected": 3.3552922962799214
     },
     {
       "id": "MT-020162",
@@ -164735,8 +164735,8 @@
       "category": "Generated unique expressions",
       "name": "(11.7646)^(-4)",
       "pass": true,
-      "actual": 0.000052202504264783277,
-      "expected": 0.000052202504264783277
+      "actual": 0.00005220250426478327,
+      "expected": 0.00005220250426478327
     },
     {
       "id": "MT-020578",
@@ -166207,8 +166207,8 @@
       "category": "Generated unique expressions",
       "name": "(6.04079)^(-4)",
       "pass": true,
-      "actual": 0.0007509742515178451,
-      "expected": 0.0007509742515178451
+      "actual": 0.000750974251517845,
+      "expected": 0.000750974251517845
     },
     {
       "id": "MT-020762",
@@ -168703,8 +168703,8 @@
       "category": "Generated unique expressions",
       "name": "(8.63233)^(4)",
       "pass": true,
-      "actual": 5552.801356242579,
-      "expected": 5552.801356242579
+      "actual": 5552.801356242578,
+      "expected": 5552.801356242578
     },
     {
       "id": "MT-021074",
@@ -169535,8 +169535,8 @@
       "category": "Generated unique expressions",
       "name": "(5.58369)^(4)",
       "pass": true,
-      "actual": 972.0423686327545,
-      "expected": 972.0423686327545
+      "actual": 972.0423686327543,
+      "expected": 972.0423686327543
     },
     {
       "id": "MT-021178",
@@ -171135,8 +171135,8 @@
       "category": "Generated unique expressions",
       "name": "(9.29996)^(-2)",
       "pass": true,
-      "actual": 0.011562129751486131,
-      "expected": 0.011562129751486131
+      "actual": 0.011562129751486133,
+      "expected": 0.011562129751486133
     },
     {
       "id": "MT-021378",
@@ -171199,8 +171199,8 @@
       "category": "Generated unique expressions",
       "name": "(8.46981)^(-2)",
       "pass": true,
-      "actual": 0.013939675495238092,
-      "expected": 0.013939675495238092
+      "actual": 0.013939675495238094,
+      "expected": 0.013939675495238094
     },
     {
       "id": "MT-021386",
@@ -172671,8 +172671,8 @@
       "category": "Generated unique expressions",
       "name": "(6.26157)^(-4)",
       "pass": true,
-      "actual": 0.0006505295661925292,
-      "expected": 0.0006505295661925292
+      "actual": 0.0006505295661925293,
+      "expected": 0.0006505295661925293
     },
     {
       "id": "MT-021570",
@@ -173695,8 +173695,8 @@
       "category": "Generated unique expressions",
       "name": "(7.7623)^(4)",
       "pass": true,
-      "actual": 3630.460316343515,
-      "expected": 3630.460316343515
+      "actual": 3630.4603163435154,
+      "expected": 3630.4603163435154
     },
     {
       "id": "MT-021698",
@@ -174335,8 +174335,8 @@
       "category": "Generated unique expressions",
       "name": "(2.08745)^(-3)",
       "pass": true,
-      "actual": 0.10993899300577317,
-      "expected": 0.10993899300577317
+      "actual": 0.10993899300577316,
+      "expected": 0.10993899300577316
     },
     {
       "id": "MT-021778",
@@ -176895,8 +176895,8 @@
       "category": "Generated unique expressions",
       "name": "(9.11758)^(-3)",
       "pass": true,
-      "actual": 0.0013193537389311763,
-      "expected": 0.0013193537389311763
+      "actual": 0.0013193537389311761,
+      "expected": 0.0013193537389311761
     },
     {
       "id": "MT-022098",
@@ -177279,8 +177279,8 @@
       "category": "Generated unique expressions",
       "name": "(1.11476)^(-3)",
       "pass": true,
-      "actual": 0.7218648071628118,
-      "expected": 0.7218648071628118
+      "actual": 0.7218648071628119,
+      "expected": 0.7218648071628119
     },
     {
       "id": "MT-022146",
