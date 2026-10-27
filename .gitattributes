@@ -1,0 +1,9 @@
+* text=auto eol=lf
+web/vendor/mplpb/bundle-*.txt -text
+*.zip -text
+*.gz -text
+*.bz2 -text
+*.png -text
+*.pdf -text
+*.wasm -text
+*.part* -text

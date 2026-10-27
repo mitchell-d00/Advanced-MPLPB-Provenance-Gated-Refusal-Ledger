@@ -1,0 +1,1121 @@
+{
+  "summary": {
+    "unique_questions": 139,
+    "passed": 139,
+    "failed": 0
+  },
+  "results": [
+    {
+      "id": "MRE-0001",
+      "category": "Function reference",
+      "question": "what is sin",
+      "expected": "sin(pi/6)",
+      "actual": "Mr. E · sin()\n\nMeaning: sine: opposite / hypotenuse on the unit circle.\n\nEnter: sin(pi/6)\n\nRemember: For RAD angles, sin(pi/6)=0.5. In DEG, sin(30)=0.5. Outputs from -1 to 1.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0002",
+      "category": "Function reference",
+      "question": "what is cos",
+      "expected": "cos(0)",
+      "actual": "Mr. E · cos()\n\nMeaning: cosine: adjacent / hypotenuse on the unit circle.\n\nEnter: cos(0)\n\nRemember: cos(0)=1. Outputs from -1 to 1.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0003",
+      "category": "Function reference",
+      "question": "what is tan",
+      "expected": "tan(pi/4)",
+      "actual": "Mr. E · tan()\n\nMeaning: tangent: sine divided by cosine.\n\nEnter: tan(pi/4)\n\nRemember: tan(pi/4)=1 in RAD mode. Undefined at 90°+180°k.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0004",
+      "category": "Function reference",
+      "question": "what is asin",
+      "expected": "asin(0.5)",
+      "actual": "Mr. E · asin()\n\nMeaning: inverse sine: returns an angle with the given sine.\n\nEnter: asin(0.5)\n\nRemember: Input must be between -1 and 1. Returns an angle in current RAD/DEG mode.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0005",
+      "category": "Function reference",
+      "question": "what is acos",
+      "expected": "acos(0.5)",
+      "actual": "Mr. E · acos()\n\nMeaning: inverse cosine: returns an angle with the given cosine.\n\nEnter: acos(0.5)\n\nRemember: Input must be between -1 and 1. Returns an angle in current RAD/DEG mode.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0006",
+      "category": "Function reference",
+      "question": "what is atan",
+      "expected": "atan(1)",
+      "actual": "Mr. E · atan()\n\nMeaning: inverse tangent: returns an angle with the given tangent.\n\nEnter: atan(1)\n\nRemember: atan(1)=pi/4 radians or 45 degrees.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0007",
+      "category": "Function reference",
+      "question": "what is atan2",
+      "expected": "atan2(1,1)",
+      "actual": "Mr. E · atan2()\n\nMeaning: signed direction of the point (x,y), with arguments (y,x).\n\nEnter: atan2(1,1)\n\nRemember: Tracks the quadrant. Output follows RAD/DEG mode.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0008",
+      "category": "Function reference",
+      "question": "what is sinh",
+      "expected": "sinh(1)",
+      "actual": "Mr. E · sinh()\n\nMeaning: hyperbolic sine: (exp(x)-exp(-x))/2.\n\nEnter: sinh(1)\n\nRemember: Unlike sine, it is not periodic.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0009",
+      "category": "Function reference",
+      "question": "what is cosh",
+      "expected": "cosh(0)",
+      "actual": "Mr. E · cosh()\n\nMeaning: hyperbolic cosine: (exp(x)+exp(-x))/2.\n\nEnter: cosh(0)\n\nRemember: cosh(0)=1, and cosh(x) is at least 1 for real x.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0010",
+      "category": "Function reference",
+      "question": "what is tanh",
+      "expected": "tanh(1)",
+      "actual": "Mr. E · tanh()\n\nMeaning: hyperbolic tangent: sinh(x)/cosh(x).\n\nEnter: tanh(1)\n\nRemember: Its outputs lie strictly between -1 and 1.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0011",
+      "category": "Function reference",
+      "question": "what is sqrt",
+      "expected": "sqrt(81)",
+      "actual": "Mr. E · sqrt()\n\nMeaning: principal square root: nonnegative number whose square is the input.\n\nEnter: sqrt(81)\n\nRemember: Real inputs must be >= 0. sqrt(81)=9, not ±9.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0012",
+      "category": "Function reference",
+      "question": "what is cbrt",
+      "expected": "cbrt(-8)",
+      "actual": "Mr. E · cbrt()\n\nMeaning: real cube root: number whose cube is the input.\n\nEnter: cbrt(-8)\n\nRemember: cbrt(-8)=-2, unlike sqrt it accepts negative inputs.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0013",
+      "category": "Function reference",
+      "question": "what is abs",
+      "expected": "abs(-7)",
+      "actual": "Mr. E · abs()\n\nMeaning: absolute value: distance from zero.\n\nEnter: abs(-7)\n\nRemember: abs(-7)=7; the result is nonnegative.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0014",
+      "category": "Function reference",
+      "question": "what is ln",
+      "expected": "ln(e)",
+      "actual": "Mr. E · ln()\n\nMeaning: natural logarithm, inverse of exp.\n\nEnter: ln(e)\n\nRemember: ln(e)=1. Input must be positive.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0015",
+      "category": "Function reference",
+      "question": "what is log",
+      "expected": "log(1000)",
+      "actual": "Mr. E · log()\n\nMeaning: base-10 logarithm.\n\nEnter: log(1000)\n\nRemember: log(1000)=3, because 10^3=1000. Positive inputs only.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0016",
+      "category": "Function reference",
+      "question": "what is exp",
+      "expected": "exp(1)",
+      "actual": "Mr. E · exp()\n\nMeaning: exponential e raised to an input.\n\nEnter: exp(1)\n\nRemember: exp(1)=e. Always positive for finite real inputs.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0017",
+      "category": "Function reference",
+      "question": "what is floor",
+      "expected": "floor(-2.3)",
+      "actual": "Mr. E · floor()\n\nMeaning: greatest integer <= the input.\n\nEnter: floor(-2.3)\n\nRemember: floor(-2.3)=-3, not -2.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0018",
+      "category": "Function reference",
+      "question": "what is ceil",
+      "expected": "ceil(-2.3)",
+      "actual": "Mr. E · ceil()\n\nMeaning: smallest integer >= the input.\n\nEnter: ceil(-2.3)\n\nRemember: ceil(-2.3)=-2.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0019",
+      "category": "Function reference",
+      "question": "what is round",
+      "expected": "round(2.5)",
+      "actual": "Mr. E · round()\n\nMeaning: round to nearest integer (JavaScript tie rule).\n\nEnter: round(2.5)\n\nRemember: round(2.5)=3 and round(-2.5)=-2; ties go toward positive infinity.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0020",
+      "category": "Function reference",
+      "question": "what is sign",
+      "expected": "sign(-8)",
+      "actual": "Mr. E · sign()\n\nMeaning: sign of a real number: -1, 0, or 1.\n\nEnter: sign(-8)\n\nRemember: sign(-8)=-1.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0021",
+      "category": "Function reference",
+      "question": "what is min",
+      "expected": "min(3,8)",
+      "actual": "Mr. E · min()\n\nMeaning: smaller of two values.\n\nEnter: min(3,8)\n\nRemember: min(3,8)=3; two arguments separated by a comma.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0022",
+      "category": "Function reference",
+      "question": "what is max",
+      "expected": "max(3,8)",
+      "actual": "Mr. E · max()\n\nMeaning: larger of two values.\n\nEnter: max(3,8)\n\nRemember: max(3,8)=8; two arguments separated by a comma.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0023",
+      "category": "Function reference",
+      "question": "what is pow",
+      "expected": "pow(2,5)",
+      "actual": "Mr. E · pow()\n\nMeaning: raise the first number to the second.\n\nEnter: pow(2,5)\n\nRemember: pow(2,5)=32. Equivalent to 2^5.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0024",
+      "category": "Function reference",
+      "question": "what is factorial",
+      "expected": "factorial(5)",
+      "actual": "Mr. E · factorial()\n\nMeaning: multiply the positive integers up to n.\n\nEnter: factorial(5)\n\nRemember: 5!=120; whole numbers 0..170 only in this calculator.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0025",
+      "category": "Function reference",
+      "question": "what is percent",
+      "expected": "35%",
+      "actual": "Mr. E · percent()\n\nMeaning: divide by 100.\n\nEnter: 35%\n\nRemember: 35%=0.35. For 35% of 80, enter 35%*80.\n\nUse Scientific for its touch key, or type the expression into Calculator. Current angle mode: RAD.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0026",
+      "category": "Learning topics",
+      "question": "teach arithmetic",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Order of operations\n\nIdea: Group parentheses first, then powers, then multiplication/division, then addition/subtraction. Multiplication and division are read left to right at the same level.\n\nWorked example: 2+3*4 = 14; (2+3)*4 = 20.\n\nYour turn: Practice: explain (7+3)*4-9\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0027",
+      "category": "Learning topics",
+      "question": "teach fractions",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Fractions and ratios\n\nIdea: A fraction a/b means a divided by b. For sums use a common denominator; for multiplication multiply numerators and denominators. Division by zero is undefined.\n\nWorked example: 1/2+1/4 = 3/4; 3/4*8 = 6.\n\nYour turn: Try: explain 1/2+1/4\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0028",
+      "category": "Learning topics",
+      "question": "teach percentages",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Percentages\n\nIdea: Percent means per hundred: 15%=0.15. To find a percentage of a quantity, multiply. To reverse a percentage change, divide by the change factor.\n\nWorked example: 15%*80 = 12; raising 80 by 15% gives 80*(1+15%) = 92.\n\nYour turn: Try: explain 80*(1+15%)\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0029",
+      "category": "Learning topics",
+      "question": "teach negatives",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Negative numbers\n\nIdea: A negative value lies to the left of zero. The product of two negatives is positive. Subtracting a negative is addition.\n\nWorked example: -3*(-4)=12; -3-(-4)=1.\n\nYour turn: Try: explain -3*(-4)\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0030",
+      "category": "Learning topics",
+      "question": "teach powers",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Powers and exponents\n\nIdea: a^n means repeated multiplication for positive whole n. Exponents associate right to left: 2^3^2 means 2^(3^2). A negative base needs parentheses.\n\nWorked example: 2^3^2 = 512; (-2)^2=4; -2^2=-4.\n\nYour turn: Try: explain (3^2)*3^3\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0031",
+      "category": "Learning topics",
+      "question": "teach roots",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Roots and radicals\n\nIdea: Square roots undo squaring (principal root is nonnegative); cube roots undo cubing. Even roots of negative numbers are not real.\n\nWorked example: sqrt(49)=7; cbrt(-27)=-3.\n\nYour turn: Try: solve x^2-49=0\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0032",
+      "category": "Learning topics",
+      "question": "teach trigonometry",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Angles and trigonometry\n\nIdea: Sine and cosine give the y and x coordinates on the unit circle. Tangent=sin/cos where cos is nonzero. DEG uses degrees; RAD uses radians, with pi radians=180 degrees.\n\nWorked example: RAD: sin(pi/2)=1. DEG: sin(90)=1. tan(90) is undefined in DEG.\n\nYour turn: Try: what is atan2\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0033",
+      "category": "Learning topics",
+      "question": "teach logarithms",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Logs and exponentials\n\nIdea: log is base 10, ln is base e, and exp(x)=e^x. They undo powers for positive values: ln(exp(x))=x. The input of ln/log must be positive.\n\nWorked example: log(1000)=3; ln(e)=1.\n\nYour turn: Try: explain log(1000)+ln(e)\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0034",
+      "category": "Learning topics",
+      "question": "teach equations",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Equations and solving\n\nIdea: Do equal operations to both sides. For ax+b=0, isolate x. For ax^2+bx+c=0, use factoring or the quadratic formula. Graph roots occur at y=0.\n\nWorked example: solve 3*x-12=0; solve x^2-5*x+6=0.\n\nYour turn: Try: solve x^2+1=0\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0035",
+      "category": "Learning topics",
+      "question": "teach functions",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Functions and domain\n\nIdea: A function maps an input x to an output f(x). Domain means allowed x-values; range means possible outputs. Check denominators, even roots, and logarithms for domain restrictions.\n\nWorked example: f(x)=sqrt(x) needs x>=0; 1/x excludes x=0.\n\nYour turn: Try: explain graph sqrt(x)\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0036",
+      "category": "Learning topics",
+      "question": "teach graphing",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Cartesian graphing\n\nIdea: Write f(x) with x as the horizontal input and y=f(x) as the vertical output. Plot sample points, identify x-intercepts, y-intercept, turning points, and steepness.\n\nWorked example: plot x^2-4; the roots are x=-2 and x=2.\n\nYour turn: Try: explain graph x^2-4\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0037",
+      "category": "Learning topics",
+      "question": "teach polar",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Polar graphs\n\nIdea: Polar graphs use a radius r(t) and angle t. The canvas converts (r,t) to (r cos(t), r sin(t)). The graph samples a turn; RAD/DEG applies to angle interpretation.\n\nWorked example: In a polar expression choose polar mode and enter 2*cos(3*t).\n\nYour turn: Try: teach parametric\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0038",
+      "category": "Learning topics",
+      "question": "teach parametric",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Parametric graphs\n\nIdea: A parameter t moves two coordinates together: x(t); y(t). This draws paths, loops, and motion impossible to write as a single y=f(x).\n\nWorked example: Enter 3*cos(t);2*sin(t) in Parametric mode to draw an ellipse.\n\nYour turn: Try: teach graphing\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0039",
+      "category": "Learning topics",
+      "question": "teach derivatives",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Derivatives and slope\n\nIdea: The derivative measures instantaneous rate of change. For x^n, d/dx(x^n)=n*x^(n-1); use product and chain rules for combinations. At corners and discontinuities a derivative may not exist.\n\nWorked example: differentiate x^3; at x=2 the slope is 3*2^2 = 12.\n\nYour turn: Try: differentiate sin(x)*x^2\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0040",
+      "category": "Learning topics",
+      "question": "teach integrals",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Integrals and area\n\nIdea: A definite integral measures signed accumulation over an interval. Area below the x-axis counts negative. This calculator uses numerical Simpson integration for definite integrals.\n\nWorked example: integrate x^2 from 0 to 3 gives about 9.\n\nYour turn: Try: integrate sin(x) from 0 to pi\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0041",
+      "category": "Learning topics",
+      "question": "teach statistics",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Statistics basics\n\nIdea: Mean is sum / count. Median is the middle sorted value, and range is max-min. This version has no general stats list engine, but individual arithmetic checks work.\n\nWorked example: Mean of 3, 5, 10 is (3+5+10)/3 = 6.\n\nYour turn: Try: explain (3+5+10)/3\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0042",
+      "category": "Learning topics",
+      "question": "teach calculator",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Using the calculator\n\nIdea: Type an entire expression and press =. Scientific shows advanced keys; RAD/DEG changes angular functions. MS stores the result, MR inserts memory, and MC clears it. The keys target can also be set to a graph expression.\n\nWorked example: sqrt(144)+2^3 = 20. For x, use a graph field or substitute an actual number.\n\nYour turn: Try: teach graphing\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0043",
+      "category": "Learning topics",
+      "question": "teach memory",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Local memory and notebooks\n\nIdea: The workspace autosaves in this browser. Save/Notebooks create named snapshots; Export JSON transfers data between devices. Browser data can be cleared, so keep a backup.\n\nWorked example: Use Save → Export JSON and Notebooks → Import JSON.\n\nYour turn: Try: explain calculator\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0044",
+      "category": "Learning topics",
+      "question": "teach benchmarks",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Understanding tests\n\nIdea: Each test has a question, an expected result, and an actual result. Exact display checks differ from tolerant numerical comparisons. Passing many tests never proves all inputs correct.\n\nWorked example: Load the runner-generated unique-benchmarks-results.json and ask: explain test MT-000001.\n\nYour turn: Try: explain test sin(pi)\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0045",
+      "category": "Learning topics",
+      "question": "teach cas simplify",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Simplify\n\nIdea: Combine terms and cancel common factors. Keep the original restriction x≠1 even when the result is x+1.\n\nWorked example: simplify((x^2-1)/(x-1))\n\nYour turn: Ask “tutorial simplify” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0046",
+      "category": "Learning topics",
+      "question": "teach cas expand",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Expand\n\nIdea: Distribute multiplication: (x+2)^3 = x^3+6*x^2+12*x+8.\n\nWorked example: expand((x+2)^3)\n\nYour turn: Ask “tutorial expand” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0047",
+      "category": "Learning topics",
+      "question": "teach cas factor",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Factor\n\nIdea: Recognize a difference of squares: x^2-9 = (x-3)*(x+3). Expand to check.\n\nWorked example: factor(x^2-9)\n\nYour turn: Ask “tutorial factor” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0048",
+      "category": "Learning topics",
+      "question": "teach cas solve",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Solve an equation\n\nIdea: Move terms to one side, factor, then set each factor to zero: x=2 or x=3. Substitute candidates into the original equation.\n\nWorked example: solve(x^2-5*x+6=0,x)\n\nYour turn: Ask “tutorial solve” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0049",
+      "category": "Learning topics",
+      "question": "teach cas system",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Solve a system\n\nIdea: Add the equations to eliminate y: 2*x=4. Then x=2 and y=1. Separate equations with semicolons.\n\nWorked example: system(x+y=3; x-y=1)\n\nYour turn: Ask “tutorial system” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0050",
+      "category": "Learning topics",
+      "question": "teach cas diff",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Differentiate\n\nIdea: Use product and chain rules. The result is x^2*cos(x)+2*x*sin(x). Symbolic angles are radians.\n\nWorked example: diff(sin(x)*x^2,x)\n\nYour turn: Ask “tutorial diff” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0051",
+      "category": "Learning topics",
+      "question": "teach cas integrate",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Integrate symbolically\n\nIdea: Increase the power by one and divide by the new power: x^3/3. Add an arbitrary constant C. Differentiate to check.\n\nWorked example: integrate(x^2,x)\n\nYour turn: Ask “tutorial integrate” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0052",
+      "category": "Learning topics",
+      "question": "teach cas defint",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Definite integral\n\nIdea: Evaluate an antiderivative at the upper bound minus the lower bound: 27/3-0=9. Some definite integrals use numerical approximation. Check convergence first.\n\nWorked example: defint(x^2,0,3,x)\n\nYour turn: Ask “tutorial defint” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0053",
+      "category": "Learning topics",
+      "question": "teach cas limit",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Find a limit\n\nIdea: The expression is undefined at zero, but its two-sided limit is 1 (radians). A limit is not necessarily the value at the point.\n\nWorked example: limit(sin(x)/x,x,0)\n\nYour turn: Ask “tutorial limit” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0054",
+      "category": "Learning topics",
+      "question": "teach cas sum",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Finite sum\n\nIdea: Add 1+4+9+16+25 to get 55. The index k runs from 1 through 5 inclusive.\n\nWorked example: sum(k^2,k,1,5)\n\nYour turn: Ask “tutorial sum” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0055",
+      "category": "Learning topics",
+      "question": "teach cas product",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Finite product\n\nIdea: Multiply 1*2*3*4*5 to get 120. Both bounds are included.\n\nWorked example: product(k,k,1,5)\n\nYour turn: Ask “tutorial product” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0056",
+      "category": "Learning topics",
+      "question": "teach cas substitute",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Substitute\n\nIdea: Replace x with 3 to get 9+y. Other symbols remain symbolic. Syntax: substitute(expression,variable,value).\n\nWorked example: substitute(x^2+y,x,3)\n\nYour turn: Ask “tutorial substitute” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0057",
+      "category": "Learning topics",
+      "question": "teach cas determinant",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Matrix determinant\n\nIdea: For a 2×2 matrix, ad-bc = 1*4-2*3 = -2. A nonzero determinant means an inverse exists.\n\nWorked example: determinant(matrix([1,2],[3,4]))\n\nYour turn: Ask “tutorial determinant” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0058",
+      "category": "Learning topics",
+      "question": "teach cas invert",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Matrix inverse\n\nIdea: An inverse undoes a matrix transformation. Singular matrices have no inverse. Multiply by the original to check for the identity.\n\nWorked example: invert(matrix([1,2],[3,4]))\n\nYour turn: Ask “tutorial invert” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0059",
+      "category": "Learning topics",
+      "question": "teach cas transpose",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Transpose a matrix\n\nIdea: Swap rows and columns. Row [1,2] becomes the first column.\n\nWorked example: transpose(matrix([1,2],[3,4]))\n\nYour turn: Ask “tutorial transpose” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0060",
+      "category": "Learning topics",
+      "question": "teach cas partfrac",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Partial fractions\n\nIdea: Split a rational expression into simpler fractions: 1/(2*(x-1))-1/(2*(x+1)). The original exclusions x≠1 and x≠-1 still apply.\n\nWorked example: partfrac(1/(x^2-1),x)\n\nYour turn: Ask “tutorial partfrac” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0061",
+      "category": "Learning topics",
+      "question": "teach cas laplace",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Laplace transform\n\nIdea: Transform a time function to the s domain. For t, the result is 1/s^2 for Re(s)>0. Convergence conditions are not automatically certified.\n\nWorked example: laplace(t,t,s)\n\nYour turn: Ask “tutorial laplace” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0062",
+      "category": "Learning topics",
+      "question": "teach cas ilaplace",
+      "expected": "Mr. E ·",
+      "actual": "Mr. E · Inverse Laplace transform\n\nIdea: Recover a time-domain function: the inverse of 1/s^2 is t in the usual one-sided transform convention.\n\nWorked example: ilt(1/s^2,s,t)\n\nYour turn: Ask “tutorial ilaplace” for a guided example.\n\nI use local mathematical rules; I cannot prove every statement or check external sources.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0063",
+      "category": "Applied teaching",
+      "question": "explain graph x^2-4",
+      "expected": "x=-2",
+      "actual": "Mr. E · Graph walkthrough for y=x^2-4\n\n1. Put x^2-4 into Expressions as Cartesian and enable it.\n2. Read x horizontally and f(x) vertically. Each row below is one plotted sample:\nx=-2 → 0\nx=-1 → -3\nx=0 → -4\nx=1 → -3\nx=2 → 0\n3. The y-intercept is (0, -4).\n4. The sampled values at x=±1 match; this suggests even symmetry but does not prove it.\n5. Use Trace for coordinates, f′ for approximate slopes, and the lab for roots or signed area.\n\nSamples are not proof of continuity, domain, roots, or asymptotes; steep curves and discontinuities need special care.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0064",
+      "category": "Applied teaching",
+      "question": "explain graph sqrt(x)",
+      "expected": "undefined",
+      "actual": "Mr. E · Graph walkthrough for y=sqrt(x)\n\n1. Put sqrt(x) into Expressions as Cartesian and enable it.\n2. Read x horizontally and f(x) vertically. Each row below is one plotted sample:\nx=-2 → undefined\nx=-1 → undefined\nx=0 → 0\nx=1 → 1\nx=2 → 1.414213562\n3. The y-intercept is (0, 0).\n4. The two samples at ±1 do not establish simple symmetry.\n5. Use Trace for coordinates, f′ for approximate slopes, and the lab for roots or signed area.\n\nSamples are not proof of continuity, domain, roots, or asymptotes; steep curves and discontinuities need special care.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0065",
+      "category": "Applied teaching",
+      "question": "explain graph 1/x",
+      "expected": "undefined",
+      "actual": "Mr. E · Graph walkthrough for y=1/x\n\n1. Put 1/x into Expressions as Cartesian and enable it.\n2. Read x horizontally and f(x) vertically. Each row below is one plotted sample:\nx=-2 → -0.5\nx=-1 → -1\nx=0 → undefined\nx=1 → 1\nx=2 → 0.5\n3. The y-intercept is undefined at x=0.\n4. The sampled values at x=±1 have opposite signs; this suggests odd symmetry but does not prove it.\n5. Use Trace for coordinates, f′ for approximate slopes, and the lab for roots or signed area.\n\nSamples are not proof of continuity, domain, roots, or asymptotes; steep curves and discontinuities need special care.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0066",
+      "category": "Applied teaching",
+      "question": "explain graph y=x^3",
+      "expected": "y-intercept",
+      "actual": "Mr. E · Graph walkthrough for y=x^3\n\n1. Put x^3 into Expressions as Cartesian and enable it.\n2. Read x horizontally and f(x) vertically. Each row below is one plotted sample:\nx=-2 → -8\nx=-1 → -1\nx=0 → 0\nx=1 → 1\nx=2 → 8\n3. The y-intercept is (0, 0).\n4. The sampled values at x=±1 have opposite signs; this suggests odd symmetry but does not prove it.\n5. Use Trace for coordinates, f′ for approximate slopes, and the lab for roots or signed area.\n\nSamples are not proof of continuity, domain, roots, or asymptotes; steep curves and discontinuities need special care.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0067",
+      "category": "Applied teaching",
+      "question": "why is tan(90) undefined?",
+      "expected": "division by zero",
+      "actual": "Mr. E · tan(angle) = sin(angle)/cos(angle). At 90° in DEG mode, cos(90)=0, so division by zero makes tangent undefined. In RAD mode the corresponding angle is pi/2.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0068",
+      "category": "Applied teaching",
+      "question": "why does sqrt(-1) fail?",
+      "expected": "no real value",
+      "actual": "Mr. E · For real numbers a square is never negative. sqrt(-1) has no real value (complex numbers use i); this calculator uses real-number evaluation.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0069",
+      "category": "Applied teaching",
+      "question": "why does ln(-2) fail?",
+      "expected": "real only",
+      "actual": "Mr. E · ln(x) and log(x) are real only when x>0, since a positive exponential base raised to a real power remains positive.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0070",
+      "category": "Applied teaching",
+      "question": "why is 1/0 invalid?",
+      "expected": "undefined",
+      "actual": "Mr. E · Division by zero is undefined. There is no number that multiplied by zero recovers a nonzero dividend.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0071",
+      "category": "Applied teaching",
+      "question": "list functions",
+      "expected": "atan2",
+      "actual": "Mr. E · Supported functions\nabs, acos, asin, atan, atan2, cbrt, ceil, cos, cosh, exp, factorial, floor, ln, log, max, min, percent, pow, round, sign, sin, sinh, sqrt, tan, tanh\n\nAsk \"what is atan2\" for its domain, example, and calculator use.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0072",
+      "category": "Applied teaching",
+      "question": "solve x^2-5*x+6=0",
+      "expected": "x₁ =",
+      "actual": "1. Collect terms: a = 1, b = -5, c = 6.\n2. Discriminant D = b² − 4ac = 1.\n3. Apply x = (−b ± √D)/(2a).\n\nx₁ = 3\nx₂ = 2\n\nCheck: f(x₁) ≈ 0; f(x₂) ≈ 0",
+      "pass": true
+    },
+    {
+      "id": "MRE-0073",
+      "category": "Applied teaching",
+      "question": "differentiate x^x",
+      "expected": "ln(x)",
+      "actual": "Differentiate with respect to x. Parameters a and b are constants.\n\n1. General power rule via logarithmic differentiation; requires a positive base.\n\nf′(x) = ((x ^ x) * (ln(x) + 1))\n\nTrig derivatives use the current RAD mode; expressions retain their original domains.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0074",
+      "category": "Applied teaching",
+      "question": "integrate x^2 from 0 to 3",
+      "expected": "Signed area",
+      "actual": "1. Set the bounds: 0 to 3.\n2. Divide into 1600 equal subintervals, h = 0.001875.\n3. Apply Simpson’s rule:\n   h/3 × [f(a) + 4Σf(odd) + 2Σf(even) + f(b)].\n\nSigned area ≈ 9\nThis is a numerical approximation for smooth functions. Sampling may miss singularities.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0075",
+      "category": "Applied teaching",
+      "question": "explain 2*(3+4)",
+      "expected": "Answer: 14",
+      "actual": "Order of operations: parentheses and functions → powers → multiplication/division → addition/subtraction.\n\n1. (3 + 4) = 7\n2. (2 * (3 + 4)) = 14\n\nAnswer: 14",
+      "pass": true
+    },
+    {
+      "id": "MRE-0076",
+      "category": "Applied teaching",
+      "question": "explain test sin(pi)",
+      "expected": "on-demand explanation",
+      "actual": "Mr. E · Benchmark on-demand (on-demand explanation)\nCategory: user-supplied input\nQuestion: sin(pi)\nReported actual: not run\nReported expected: not supplied\n\nOrder of operations: parentheses and functions → powers → multiplication/division → addition/subtraction.\n\n1. sin(pi) = 0\n\nAnswer: 0\n\nImported pass/fail information is a claim in your local JSON report; Mr. E does not independently certify its source.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0077",
+      "category": "Applied teaching",
+      "question": "explain test MT-000001",
+      "expected": "Load benchmark JSON",
+      "actual": "I do not have MT-000001 loaded. Use \"Load benchmark JSON\" beneath Mr. E and choose tests/unique-benchmarks-results.json, or ask \"explain test <expression>\".",
+      "pass": true
+    },
+    {
+      "id": "MRE-0078",
+      "category": "Applied teaching",
+      "question": "explain test DEG tan(90)",
+      "expected": "undefined",
+      "actual": "Mr. E · Benchmark on-demand (on-demand explanation)\nCategory: user-supplied input\nQuestion: DEG tan(90)\nReported actual: not run\nReported expected: not supplied\n\nThe result is undefined or outside the supported real-number domain. This test needs a specialized or numerical check: Undefined in the real-number domain.. You can enter its expression into Calculator or the Lab.\n\nImported pass/fail information is a claim in your local JSON report; Mr. E does not independently certify its source.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0079",
+      "category": "Applied teaching",
+      "question": "practice trigonometry",
+      "expected": "Practice",
+      "actual": "Mr. E · Practice: trigonometry\n\nSolve sin(pi/6) without running Calculator first.\nReply \"answer <number>\", \"hint\", or \"show solution\". Practice stays in this tab until replaced.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0080",
+      "category": "Applied teaching",
+      "question": "hint",
+      "expected": "Hint",
+      "actual": "Mr. E · Hint: Think about the unit circle.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0081",
+      "category": "Applied teaching",
+      "question": "answer 0.5",
+      "expected": "Correct!",
+      "actual": "Mr. E · Correct! sin(pi/6) = 0.5. Think about the unit circle.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0082",
+      "category": "Applied teaching",
+      "question": "show solution",
+      "expected": "Solution",
+      "actual": "Mr. E · Solution: sin(pi/6) = 0.5\nThink about the unit circle.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0083",
+      "category": "Applied teaching",
+      "question": "practice powers",
+      "expected": "Practice",
+      "actual": "Mr. E · Practice: powers\n\nSolve 2^3^2 without running Calculator first.\nReply \"answer <number>\", \"hint\", or \"show solution\". Practice stays in this tab until replaced.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0084",
+      "category": "Applied teaching",
+      "question": "answer 512",
+      "expected": "Correct!",
+      "actual": "Mr. E · Correct! 2^3^2 = 512. Exponentiation works right-to-left.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0085",
+      "category": "Applied teaching",
+      "question": "explain 4!",
+      "expected": "Answer: 24",
+      "actual": "Order of operations: parentheses and functions → powers → multiplication/division → addition/subtraction.\n\n1. factorial(4) = 24\n\nAnswer: 24",
+      "pass": true
+    },
+    {
+      "id": "MRE-0086",
+      "category": "Applied teaching",
+      "question": "tell me a joke",
+      "expected": "explicit commands",
+      "actual": "I can help with these explicit commands:\n• explain 2*(3+4)\n• solve x^2-5*x+6=0\n• differentiate sin(x)*x^2\n• integrate sin(x) from 0 to pi\n• plot a*cos(x)+b\n\nI use local mathematical rules, not a conversational AI model. General questions and automated code generation are outside this version.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0087",
+      "category": "Guided function tutorials",
+      "question": "how do I use sin?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · sin · Step 1 of 3\n\nMeaning: sine: opposite / hypotenuse on the unit circle.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0088",
+      "category": "Guided function tutorials",
+      "question": "how do I use cos?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · cos · Step 1 of 3\n\nMeaning: cosine: adjacent / hypotenuse on the unit circle.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0089",
+      "category": "Guided function tutorials",
+      "question": "how do I use tan?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · tan · Step 1 of 3\n\nMeaning: tangent: sine divided by cosine.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0090",
+      "category": "Guided function tutorials",
+      "question": "how do I use asin?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · asin · Step 1 of 3\n\nMeaning: inverse sine: returns an angle with the given sine.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0091",
+      "category": "Guided function tutorials",
+      "question": "how do I use acos?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · acos · Step 1 of 3\n\nMeaning: inverse cosine: returns an angle with the given cosine.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0092",
+      "category": "Guided function tutorials",
+      "question": "how do I use atan?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · atan · Step 1 of 3\n\nMeaning: inverse tangent: returns an angle with the given tangent.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0093",
+      "category": "Guided function tutorials",
+      "question": "how do I use atan2?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · atan2 · Step 1 of 3\n\nMeaning: signed direction of the point (x,y), with arguments (y,x).\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0094",
+      "category": "Guided function tutorials",
+      "question": "how do I use sinh?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · sinh · Step 1 of 3\n\nMeaning: hyperbolic sine: (exp(x)-exp(-x))/2.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0095",
+      "category": "Guided function tutorials",
+      "question": "how do I use cosh?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · cosh · Step 1 of 3\n\nMeaning: hyperbolic cosine: (exp(x)+exp(-x))/2.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0096",
+      "category": "Guided function tutorials",
+      "question": "how do I use tanh?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · tanh · Step 1 of 3\n\nMeaning: hyperbolic tangent: sinh(x)/cosh(x).\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0097",
+      "category": "Guided function tutorials",
+      "question": "how do I use sqrt?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · sqrt · Step 1 of 3\n\nMeaning: principal square root: nonnegative number whose square is the input.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0098",
+      "category": "Guided function tutorials",
+      "question": "how do I use cbrt?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · cbrt · Step 1 of 3\n\nMeaning: real cube root: number whose cube is the input.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0099",
+      "category": "Guided function tutorials",
+      "question": "how do I use abs?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · abs · Step 1 of 3\n\nMeaning: absolute value: distance from zero.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0100",
+      "category": "Guided function tutorials",
+      "question": "how do I use ln?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · ln · Step 1 of 3\n\nMeaning: natural logarithm, inverse of exp.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0101",
+      "category": "Guided function tutorials",
+      "question": "how do I use log?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · log · Step 1 of 3\n\nMeaning: base-10 logarithm.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0102",
+      "category": "Guided function tutorials",
+      "question": "how do I use exp?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · exp · Step 1 of 3\n\nMeaning: exponential e raised to an input.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0103",
+      "category": "Guided function tutorials",
+      "question": "how do I use floor?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · floor · Step 1 of 3\n\nMeaning: greatest integer <= the input.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0104",
+      "category": "Guided function tutorials",
+      "question": "how do I use ceil?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · ceil · Step 1 of 3\n\nMeaning: smallest integer >= the input.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0105",
+      "category": "Guided function tutorials",
+      "question": "how do I use round?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · round · Step 1 of 3\n\nMeaning: round to nearest integer (JavaScript tie rule).\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0106",
+      "category": "Guided function tutorials",
+      "question": "how do I use sign?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · sign · Step 1 of 3\n\nMeaning: sign of a real number: -1, 0, or 1.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0107",
+      "category": "Guided function tutorials",
+      "question": "how do I use min?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · min · Step 1 of 3\n\nMeaning: smaller of two values.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0108",
+      "category": "Guided function tutorials",
+      "question": "how do I use max?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · max · Step 1 of 3\n\nMeaning: larger of two values.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0109",
+      "category": "Guided function tutorials",
+      "question": "how do I use pow?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · pow · Step 1 of 3\n\nMeaning: raise the first number to the second.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0110",
+      "category": "Guided function tutorials",
+      "question": "how do I use factorial?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · factorial · Step 1 of 3\n\nMeaning: multiply the positive integers up to n.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0111",
+      "category": "Guided function tutorials",
+      "question": "how do I use percent?",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · percent · Step 1 of 3\n\nMeaning: divide by 100.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0112",
+      "category": "CAS tutorials",
+      "question": "tutorial simplify",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Simplify · Step 1 of 3\n\nCombine terms and cancel common factors. Keep the original restriction x≠1 even when the result is x+1.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0113",
+      "category": "CAS tutorials",
+      "question": "tutorial expand",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Expand · Step 1 of 3\n\nDistribute multiplication: (x+2)^3 = x^3+6*x^2+12*x+8.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0114",
+      "category": "CAS tutorials",
+      "question": "tutorial factor",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Factor · Step 1 of 3\n\nRecognize a difference of squares: x^2-9 = (x-3)*(x+3). Expand to check.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0115",
+      "category": "CAS tutorials",
+      "question": "tutorial solve",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Solve an equation · Step 1 of 3\n\nMove terms to one side, factor, then set each factor to zero: x=2 or x=3. Substitute candidates into the original equation.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0116",
+      "category": "CAS tutorials",
+      "question": "tutorial system",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Solve a system · Step 1 of 3\n\nAdd the equations to eliminate y: 2*x=4. Then x=2 and y=1. Separate equations with semicolons.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0117",
+      "category": "CAS tutorials",
+      "question": "tutorial diff",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Differentiate · Step 1 of 3\n\nUse product and chain rules. The result is x^2*cos(x)+2*x*sin(x). Symbolic angles are radians.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0118",
+      "category": "CAS tutorials",
+      "question": "tutorial integrate",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Integrate symbolically · Step 1 of 3\n\nIncrease the power by one and divide by the new power: x^3/3. Add an arbitrary constant C. Differentiate to check.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0119",
+      "category": "CAS tutorials",
+      "question": "tutorial defint",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Definite integral · Step 1 of 3\n\nEvaluate an antiderivative at the upper bound minus the lower bound: 27/3-0=9. Some definite integrals use numerical approximation. Check convergence first.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0120",
+      "category": "CAS tutorials",
+      "question": "tutorial limit",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Find a limit · Step 1 of 3\n\nThe expression is undefined at zero, but its two-sided limit is 1 (radians). A limit is not necessarily the value at the point.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0121",
+      "category": "CAS tutorials",
+      "question": "tutorial sum",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Finite sum · Step 1 of 3\n\nAdd 1+4+9+16+25 to get 55. The index k runs from 1 through 5 inclusive.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0122",
+      "category": "CAS tutorials",
+      "question": "tutorial product",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Finite product · Step 1 of 3\n\nMultiply 1*2*3*4*5 to get 120. Both bounds are included.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0123",
+      "category": "CAS tutorials",
+      "question": "tutorial substitute",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Substitute · Step 1 of 3\n\nReplace x with 3 to get 9+y. Other symbols remain symbolic. Syntax: substitute(expression,variable,value).\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0124",
+      "category": "CAS tutorials",
+      "question": "tutorial determinant",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Matrix determinant · Step 1 of 3\n\nFor a 2×2 matrix, ad-bc = 1*4-2*3 = -2. A nonzero determinant means an inverse exists.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0125",
+      "category": "CAS tutorials",
+      "question": "tutorial invert",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Matrix inverse · Step 1 of 3\n\nAn inverse undoes a matrix transformation. Singular matrices have no inverse. Multiply by the original to check for the identity.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0126",
+      "category": "CAS tutorials",
+      "question": "tutorial transpose",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Transpose a matrix · Step 1 of 3\n\nSwap rows and columns. Row [1,2] becomes the first column.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0127",
+      "category": "CAS tutorials",
+      "question": "tutorial partfrac",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Partial fractions · Step 1 of 3\n\nSplit a rational expression into simpler fractions: 1/(2*(x-1))-1/(2*(x+1)). The original exclusions x≠1 and x≠-1 still apply.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0128",
+      "category": "CAS tutorials",
+      "question": "tutorial laplace",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Laplace transform · Step 1 of 3\n\nTransform a time function to the s domain. For t, the result is 1/s^2 for Re(s)>0. Convergence conditions are not automatically certified.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0129",
+      "category": "CAS tutorials",
+      "question": "tutorial ilaplace",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Inverse Laplace transform · Step 1 of 3\n\nRecover a time-domain function: the inverse of 1/s^2 is t in the usual one-sided transform convention.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0130",
+      "category": "Tutorial navigation",
+      "question": "next",
+      "expected": "Step 2 of 3",
+      "actual": "Mr. E · Inverse Laplace transform · Step 2 of 3\n\nOpen Computer algebra and enter: ilt(1/s^2,s,t). Select Run CAS, or ask me “run example”.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0131",
+      "category": "Tutorial navigation",
+      "question": "back",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Inverse Laplace transform · Step 1 of 3\n\nRecover a time-domain function: the inverse of 1/s^2 is t in the usual one-sided transform convention.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0132",
+      "category": "Tutorial navigation",
+      "question": "repeat",
+      "expected": "Step 1 of 3",
+      "actual": "Mr. E · Inverse Laplace transform · Step 1 of 3\n\nRecover a time-domain function: the inverse of 1/s^2 is t in the usual one-sided transform convention.\n\nSay next, back, repeat, run example, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0133",
+      "category": "Control tutorial",
+      "question": "tutorial memStore",
+      "expected": "Step 1 of",
+      "actual": "Mr. E · Store a number (MS) · Step 1 of 3\n\nWhat it is\nMemory is a named place to keep one number even after ans changes.\n\nSay next, back, repeat, or stop tutorial.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0134",
+      "category": "Unknown tutorial",
+      "question": "tutorial imaginaryFeature",
+      "expected": "do not have an exact tutorial",
+      "actual": "Mr. E · I do not have an exact tutorial for “ imaginaryFeature”. Ask “list tutorials” or use a function/control name. Your current tutorial is unchanged.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0135",
+      "category": "Tutorial navigation",
+      "question": "stop tutorial",
+      "expected": "Tutorial stopped",
+      "actual": "Mr. E · Tutorial stopped. Ask for another whenever you like.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0136",
+      "category": "Tutorial navigation",
+      "question": "next step",
+      "expected": "Start with",
+      "actual": "Mr. E · Start with “tutorial sin” or “tutorial CAS”.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0137",
+      "category": "Tutorial directory",
+      "question": "list tutorials",
+      "expected": "determinant",
+      "actual": "Mr. E · Tutorials\ncas, simplify, expand, factor, solve, system, diff, integrate, defint, limit, sum, product, substitute, determinant, invert, transpose, partfrac, laplace, ilaplace, sin, cos, tan, asin, acos, atan, atan2, sinh, cosh, tanh, sqrt, cbrt, abs, ln, log, exp, floor, ceil, round, sign, min, max, pow, factorial, percent, arithmetic, fractions, percentages, negatives, powers, roots, trigonometry, logarithms, equations, functions, graphing, polar, parametric, derivatives, integrals, statistics, calculator, memory, benchmarks, cas simplify, cas expand, cas factor, cas solve, cas system, cas diff, cas integrate, cas defint, cas limit, cas sum, cas product, cas substitute, cas determinant, cas invert, cas transpose, cas partfrac, cas laplace, cas ilaplace\n\nControls: standardMode, scientificMode, angle, memStore, memRecall, memClear, calc, history, expressions, add, visibility, removeExpression, graphType, sliderA, valA, sliderB, valB, graph, graphTab, tableTab, examples, trace, derivative, zoomIn, zoomOut, fit, square, home, xmin, xmax, ymin, ymax, applyView, fullscreen, png, analysisFn, operation, analyze, bound1, bound2, prompt, ask, mreLoad, theme, help, notebooks, save, saveNotebook, notebookName, notebookNote, exportNow, exportWorkspace, importWorkspace, importFile, resumeLesson, explainAnswer, learnSwitch, inspectSwitch, lessons, coachStart, recall, crawlNow, recallSearch, recallQuery, newMemoryPage, memoryTitle, memoryBody, storeMemoryPage, coachRemember, ledgerExport, closeModal, functionLibrary, settings, customMode, keyTarget, graphKeyToggle, graphKeyExpr, graphFunction, insertGraphFunction\nAsk “how do I use sin?” or “tutorial factor”.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0138",
+      "category": "CAS directory",
+      "question": "list CAS functions",
+      "expected": "partfrac",
+      "actual": "Mr. E · CAS operations\nsimplify: simplify((x^2-1)/(x-1))\nexpand: expand((x+2)^3)\nfactor: factor(x^2-9)\nsolve: solve(x^2-5*x+6=0,x)\nsystem: system(x+y=3; x-y=1)\ndiff: diff(sin(x)*x^2,x)\nintegrate: integrate(x^2,x)\ndefint: defint(x^2,0,3,x)\nlimit: limit(sin(x)/x,x,0)\nsum: sum(k^2,k,1,5)\nproduct: product(k,k,1,5)\nsubstitute: substitute(x^2+y,x,3)\ndeterminant: determinant(matrix([1,2],[3,4]))\ninvert: invert(matrix([1,2],[3,4]))\ntranspose: transpose(matrix([1,2],[3,4]))\npartfrac: partfrac(1/(x^2-1),x)\nlaplace: laplace(t,t,s)\nilaplace: ilt(1/s^2,s,t)\n\nAsk “tutorial <operation>”.",
+      "pass": true
+    },
+    {
+      "id": "MRE-0139",
+      "category": "Benchmark import",
+      "question": "explain test MT-000002",
+      "expected": "f′(x)",
+      "actual": "Mr. E · Benchmark MT-000002 (PASS in imported report)\nCategory: Symbolic derivatives\nQuestion: differentiate x^3\nReported actual: 3*x^2\nReported expected: 3*x^2\n\nDifferentiate with respect to x. Parameters a and b are constants.\n\n1. Power and chain rules: (u^c)′ = c·u^(c−1)·u′.\n\nf′(x) = (3 * (x ^ 2))\n\nTrig derivatives use the current RAD mode; expressions retain their original domains.\n\nImported pass/fail information is a claim in your local JSON report; Mr. E does not independently certify its source.",
+      "pass": true
+    }
+  ]
+}

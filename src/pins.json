@@ -1,0 +1,33 @@
+{
+  "schema": 2,
+  "project": "Advanced MPLPB provenance-gated refusal ledger",
+  "engines": {
+    "mplpb": {
+      "repository": "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages",
+      "transport": "Full Python/Pyodide engine with local reader/API patches; split local runtime assets",
+      "base_commit": "8c8de379b906f0be246ee692de1b4140b19684dd",
+      "local_modifications": true,
+      "repair_version": "gated-page-retrieval-v1",
+      "patched_source_sha256": {
+        "mplpb_combined/reader.py": "304c170fab15414c75111fddb277a8b50b4e62eacd86daa99dc071aba506c5ff",
+        "mplpb_combined/killtest.py": "8b9b7c889626fe1bfe0f1aa87cb80698de2ae67db256e4355a6ce43508f88aa7",
+        "mplpb_combined/retrieval.py": "35528e3645af096d957df51fdb39ca66decd1f5a0a98cf61061e4ff51408c1c4",
+        "tools/ledger_ui.py": "bf4075bfa4caeb440dfc4577266a8a9839dc67329b497c4febf0a75f896df8c2",
+        "browser/bridge.py": "e57d6cb2fda245bf9f30e8f7843190d395b5b11fac496c018e81c33a4a2c9084",
+        "index.html": "0886475b513379c125a9dd9853dfa7a84291974ddb717ca0f12c688d20fece20"
+      }
+    },
+    "calculator": {
+      "repository": "https://github.com/mitchell-d00/Mitchell-Tech-V120.2-A-self-teaching-scientific-and-graphing-calculator-",
+      "commit": "07693feaef5d589d1ad82f8488fd43f6d5537a60",
+      "transport": "Unchanged original index.html in a same-origin frame"
+    },
+    "pendulums": {
+      "repository": "https://github.com/mitchell-d00/Pendulums",
+      "commit": "39670130db555c5e3d1b4311f0582ec3d071f1f5",
+      "transport": "Unchanged physics.js"
+    }
+  },
+  "independence_verified": false,
+  "release": "0.2.0-retrieval-repair"
+}

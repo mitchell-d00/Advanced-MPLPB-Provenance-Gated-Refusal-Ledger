@@ -1,0 +1,17 @@
+{
+  "python_playwright_available": false,
+  "chromium_at_required_path": false,
+  "chromium_on_path": null,
+  "calculator_node_browser": {
+    "exit_code": 1,
+    "output": "browserType.launch: ENOENT: no such file or directory, mkdtemp '/tmp/playwright-artifacts-nqW6ot'\n    at /workspace/scratch/504f48417f21/repair-work/Advanced-MPLPB/upstream/MitchellTech/tests/cas-browser.cjs:3:41\n    at Object.<anonymous> (/workspace/scratch/504f48417f21/repair-work/Advanced-MPLPB/upstream/MitchellTech/tests/cas-browser.cjs:27:93) {\n  log: [],\n  name: 'Error'\n}\n"
+  },
+  "calculator_python_browser": {
+    "exit_code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/workspace/scratch/504f48417f21/repair-work/Advanced-MPLPB/upstream/MitchellTech/tests/javascript-api-browser.py\", line 5, in <module>\n    from playwright.sync_api import sync_playwright\nModuleNotFoundError: No module named 'playwright'\n"
+  },
+  "pendulum_python_browser": {
+    "exit_code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/workspace/scratch/504f48417f21/repair-work/Advanced-MPLPB/upstream/Pendulums/tests/browser_smoke.py\", line 4, in <module>\n    from playwright.sync_api import sync_playwright\nModuleNotFoundError: No module named 'playwright'\n"
+  }
+}

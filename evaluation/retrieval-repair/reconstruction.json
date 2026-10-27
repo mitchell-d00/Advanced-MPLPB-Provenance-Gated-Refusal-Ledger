@@ -1,0 +1,12 @@
+{
+  "original_distributed_zip_sha256": "c8da45b90d24314c578c314153713dd448db4808ca12036ed3b6626665db436b",
+  "uploaded_copy_status": "The later attachment path was unavailable; used the original delivered ZIP still present in this workspace, identified by its SHA-256.",
+  "upstream_base_commit": "8c8de379b906f0be246ee692de1b4140b19684dd",
+  "original_benchmark_commit": "2af5a58711783ecffc95acb4b6113832c40d2780",
+  "benchmark_url": "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/2af5a58711783ecffc95acb4b6113832c40d2780/killtest/probes.json",
+  "benchmark_sha256": "fd0f8b1d61a206dcbb612fdc7503ab339a09ec02aebf576b27554c1fb4cb9076",
+  "corpus_bytes_unchanged": true,
+  "probe_bytes_unchanged": true,
+  "missing_benchmark_material": [],
+  "independence_verified": false
+}

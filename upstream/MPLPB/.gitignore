@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.tmp
+_log/.lock
+.DS_Store
+
+# User-imported revision captures and local heads
+local/
+
+# Reproducible standalone browser build output
+dist/
+
+# Exact reference archives reconstructed from pinned byte parts
+resources/language/english-wordnet-2025-json.zip
+resources/language/link-grammar-english.zip

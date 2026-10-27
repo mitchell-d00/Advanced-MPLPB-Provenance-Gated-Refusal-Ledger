@@ -1,0 +1,285 @@
+{
+  "probes": {
+    "improved": [
+      "op02",
+      "om03",
+      "om04",
+      "om08",
+      "ot04",
+      "ot07"
+    ],
+    "regressed": [],
+    "changes": [
+      {
+        "id": "op02",
+        "query": "what does it mean if the guard has gone over",
+        "expected": "return",
+        "expected_owner": "STUDIO-0006",
+        "before": [
+          "not_in_corpus",
+          null
+        ],
+        "after": [
+          "return",
+          "STUDIO-0006"
+        ],
+        "before_correct": false,
+        "after_correct": true,
+        "strict_before": [
+          "not_in_corpus",
+          null
+        ],
+        "strict_after": [
+          "not_in_corpus",
+          null
+        ]
+      },
+      {
+        "id": "om03",
+        "query": "the coils are sagging badly near the bottom of the chamber",
+        "expected": "return",
+        "expected_owner": "STUDIO-0007",
+        "before": [
+          "not_in_corpus",
+          null
+        ],
+        "after": [
+          "return",
+          "STUDIO-0007"
+        ],
+        "before_correct": false,
+        "after_correct": true,
+        "strict_before": [
+          "not_in_corpus",
+          null
+        ],
+        "strict_after": [
+          "not_in_corpus",
+          null
+        ]
+      },
+      {
+        "id": "om04",
+        "query": "can I recycle my trimmings from yesterday's session",
+        "expected": "return",
+        "expected_owner": "STUDIO-0014",
+        "before": [
+          "not_in_corpus",
+          null
+        ],
+        "after": [
+          "return",
+          "STUDIO-0014"
+        ],
+        "before_correct": false,
+        "after_correct": true,
+        "strict_before": [
+          "not_in_corpus",
+          null
+        ],
+        "strict_after": [
+          "not_in_corpus",
+          null
+        ]
+      },
+      {
+        "id": "om08",
+        "query": "should I be covering my teapot with plastic over the weekend",
+        "expected": "return",
+        "expected_owner": "STUDIO-0016",
+        "before": [
+          "not_in_corpus",
+          null
+        ],
+        "after": [
+          "return",
+          "STUDIO-0016"
+        ],
+        "before_correct": false,
+        "after_correct": true,
+        "strict_before": [
+          "not_in_corpus",
+          null
+        ],
+        "strict_after": [
+          "not_in_corpus",
+          null
+        ]
+      },
+      {
+        "id": "ot04",
+        "query": "can I fire glass in the kiln",
+        "expected": "not_in_corpus",
+        "expected_owner": null,
+        "before": [
+          "ambiguous",
+          null
+        ],
+        "after": [
+          "not_in_corpus",
+          null
+        ],
+        "before_correct": false,
+        "after_correct": true,
+        "strict_before": [
+          "ambiguous",
+          null
+        ],
+        "strict_after": [
+          "not_in_corpus",
+          null
+        ]
+      },
+      {
+        "id": "ot07",
+        "query": "what cone does porcelain fire to",
+        "expected": "not_in_corpus",
+        "expected_owner": null,
+        "before": [
+          "ambiguous",
+          null
+        ],
+        "after": [
+          "not_in_corpus",
+          null
+        ],
+        "before_correct": false,
+        "after_correct": true,
+        "strict_before": [
+          "ambiguous",
+          null
+        ],
+        "strict_after": [
+          "not_in_corpus",
+          null
+        ]
+      }
+    ],
+    "remaining_failures": []
+  },
+  "probes_heldout": {
+    "improved": [],
+    "regressed": [],
+    "changes": [],
+    "remaining_failures": [
+      {
+        "id": "h01",
+        "query": "glaze is running down the pot",
+        "expected": "return",
+        "observed": "ambiguous",
+        "owner": null
+      },
+      {
+        "id": "h10",
+        "query": "how many posts per shelf",
+        "expected": "return",
+        "observed": "ambiguous",
+        "owner": null
+      },
+      {
+        "id": "h11",
+        "query": "where does unmarked glaze go",
+        "expected": "return",
+        "observed": "not_in_corpus",
+        "owner": null
+      },
+      {
+        "id": "h14",
+        "query": "when do spy hole bungs go back in",
+        "expected": "return",
+        "observed": "not_in_corpus",
+        "owner": null
+      },
+      {
+        "id": "h15",
+        "query": "what size burn needs the minor injuries unit",
+        "expected": "return",
+        "observed": "not_in_corpus",
+        "owner": null
+      },
+      {
+        "id": "h16",
+        "query": "which bodies must be kept in separate buckets",
+        "expected": "return",
+        "observed": "not_in_corpus",
+        "owner": null
+      },
+      {
+        "id": "h21",
+        "query": "what temperature for bisque",
+        "expected": "return",
+        "observed": "not_in_corpus",
+        "owner": null
+      },
+      {
+        "id": "h29",
+        "query": "how do I pull a handle",
+        "expected": "not_in_corpus",
+        "observed": "return",
+        "owner": "STUDIO-0016"
+      }
+    ]
+  },
+  "probes_adjacent": {
+    "improved": [
+      "a07"
+    ],
+    "regressed": [],
+    "changes": [
+      {
+        "id": "a07",
+        "query": "what glaze recipes do we use for cone 6",
+        "expected": "not_in_corpus",
+        "expected_owner": null,
+        "before": [
+          "return",
+          "STUDIO-0004"
+        ],
+        "after": [
+          "not_in_corpus",
+          null
+        ],
+        "before_correct": false,
+        "after_correct": true,
+        "strict_before": [
+          "not_in_corpus",
+          null
+        ],
+        "strict_after": [
+          "not_in_corpus",
+          null
+        ]
+      }
+    ],
+    "remaining_failures": [
+      {
+        "id": "a03",
+        "query": "how much is a glaze firing",
+        "expected": "not_in_corpus",
+        "observed": "ambiguous",
+        "owner": null
+      },
+      {
+        "id": "a04",
+        "query": "how do I throw a cylinder on the wheel",
+        "expected": "not_in_corpus",
+        "observed": "return",
+        "owner": "STUDIO-0015"
+      },
+      {
+        "id": "a10",
+        "query": "how hot does the kiln room get",
+        "expected": "not_in_corpus",
+        "observed": "return",
+        "owner": "STUDIO-0020"
+      },
+      {
+        "id": "a12",
+        "query": "can I fire my own clay from home",
+        "expected": "not_in_corpus",
+        "observed": "ambiguous",
+        "owner": null
+      }
+    ]
+  }
+}

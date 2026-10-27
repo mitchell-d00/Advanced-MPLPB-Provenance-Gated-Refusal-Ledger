@@ -1,0 +1,84 @@
+{
+  "unique_questions": 2203,
+  "duplicate_questions_skipped": 2,
+  "skipped_questions": [
+    {
+      "category": "Integer powers",
+      "name": "(-2)^2"
+    },
+    {
+      "category": "Factorials",
+      "name": "0!"
+    }
+  ],
+  "tests": 2203,
+  "passed": 2203,
+  "failed": 0,
+  "categories": {
+    "Fraction arithmetic": {
+      "passed": 1600,
+      "failed": 0
+    },
+    "Decimal arithmetic": {
+      "passed": 300,
+      "failed": 0
+    },
+    "Order, signs and percentages": {
+      "passed": 22,
+      "failed": 0
+    },
+    "Integer powers": {
+      "passed": 174,
+      "failed": 0
+    },
+    "Scientific functions (RAD)": {
+      "passed": 24,
+      "failed": 0
+    },
+    "Factorials": {
+      "passed": 24,
+      "failed": 0
+    },
+    "Small-number display": {
+      "passed": 5,
+      "failed": 0
+    },
+    "Domain handling": {
+      "passed": 11,
+      "failed": 0
+    },
+    "Invalid expressions": {
+      "passed": 12,
+      "failed": 0
+    },
+    "Angle modes": {
+      "passed": 7,
+      "failed": 0
+    },
+    "Function substitution": {
+      "passed": 4,
+      "failed": 0
+    },
+    "Equation tutor": {
+      "passed": 6,
+      "failed": 0
+    },
+    "Numerical roots": {
+      "passed": 5,
+      "failed": 0
+    },
+    "Numerical integration": {
+      "passed": 3,
+      "failed": 0
+    },
+    "Symbolic derivatives": {
+      "passed": 4,
+      "failed": 0
+    },
+    "Closed-page recall": {
+      "passed": 2,
+      "failed": 0
+    }
+  },
+  "failures": []
+}

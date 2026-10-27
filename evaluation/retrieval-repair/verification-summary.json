@@ -1,0 +1,43 @@
+{
+  "release": "0.2.0",
+  "historical_benchmark": {
+    "console_before_wrong_contract": 20,
+    "legacy_retrieval_before": 50,
+    "gated_retrieval_after": 56,
+    "total": 56,
+    "semantic_expected_return_coverage": {
+      "supported": 0,
+      "historically_returnable": 32
+    }
+  },
+  "additional_sets": {
+    "historical_30": {
+      "before": 22,
+      "after": 22,
+      "total": 30
+    },
+    "adjacent_20": {
+      "before": 15,
+      "after": 16,
+      "total": 20
+    }
+  },
+  "new_retrieval_regressions": 0,
+  "remaining_extra_set_mismatches": 12,
+  "original_upstream_python": {
+    "before": 655,
+    "after": 655,
+    "passed": true
+  },
+  "calculator_nonbrowser_node_suites": 8,
+  "pendulum_node_tests": 18,
+  "original_composition_guards": 6,
+  "added_adversarial_python_tests": 18,
+  "existing_test_code_unchanged": true,
+  "browser_facade_real_engine_integration": true,
+  "packaged_actual_wasm_56": true,
+  "upstream_wasm_smoke": "passed",
+  "browser_ui": "blocked_environment_not_verified",
+  "independent_human_evaluation": "pending",
+  "independence_verified": false
+}

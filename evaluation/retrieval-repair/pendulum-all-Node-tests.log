@@ -1,0 +1,26 @@
+✔ all nine patterns keep 1–30 physically constrained bobs and separate colors (14.276541ms)
+✔ 360 unique, one-degree release positions around the pivot (6.819575ms)
+✔ turning the release compass rotates the ensemble without changing initial energy (15.444246ms)
+✔ damped spherical spiral winds inward as real mechanical energy is dissipated (158.851544ms)
+✔ undamped rosette remains conservative with non-circular radial variation (30.062281ms)
+✔ starburst begins with 30 evenly spaced radial directions (0.385935ms)
+✔ 30 bounded pendulums and 30 distinct colors (3.976987ms)
+✔ initial fixed-length/tangential constraints (1.59022ms)
+✔ zero state stays at bottom (162.704953ms)
+✔ radial planar swing remains planar without launch spin (15.549015ms)
+✔ long-run conservation of total energy, angular momentum and rod length (115.164545ms)
+✔ damping causes mechanical energy to decrease (24.998807ms)
+✔ circular orbit preset launches approximately circular trajectory (21.014027ms)
+✔ no integration of unsafe settings (0.578897ms)
+✔ independent per-bob damping uses unchanged RK4 engine and physical loss (101.957418ms)
+✔ spinning starburst creates genuine tangential motion, unlike radial starburst (3.527286ms)
+✔ changing camera rotation / trail color never changes forces, energy or momentum (83.488238ms)
+✔ spinburst generated first-step XYZ point is real integrated dynamics (3.858838ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 558.626511

@@ -1,0 +1,54 @@
+#!/usr/bin/env python3
+"""Check frontend logic locally with Node (optional developer check, no browser)."""
+import json
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+import tempfile
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from tools.ledger_ui import App
+
+
+def main():
+    node = shutil.which('node')
+    if not node:
+        raise SystemExit('Node is needed for this optional script check, not for running the UI.')
+    workspace = tempfile.TemporaryDirectory()
+    app = App(topic_base=workspace.name)
+    data = {'state': app.state(), 'inventory': {}, 'queries': {}, 'pages': {},
+            'history': app.history(), 'experiment': app.experiment(), 'chats': {}}
+    for corpus in ('canned', 'dogs'):
+        for profile in ('internal', 'external'):
+            data['inventory'][corpus + '|' + profile] = app.inventory(corpus, profile)
+            questions = (['Phrynomedusa vanzolinii Hyundai Engineering and Construction',
+                          'Phrynomedusa vanzolinii'] if corpus == 'canned' else ['dog'])
+            for q in questions:
+                data['queries'][corpus + '|' + profile + '|' + q] = app.query(
+                    dict(corpus=corpus, profile=profile, question=q))
+            for rec in data['inventory'][corpus + '|' + profile]['pages']:
+                if rec['eligible']:
+                    data['pages'][corpus + '|' + profile + '|' + rec['path']] = app.page(
+                        corpus, rec['path'], profile)
+    data['supported_query'] = app.query(dict(corpus='logic',question='What is Dungeons and Dragons?'))
+    data['candidate_query'] = app.query(dict(corpus='canned',question='Phrynomedusa vanzolinii',mode='candidates'))
+    sid = None
+    for message in ('relate Dungeons and Dragons -> game', 'who made you?', 'guide me', 'show my MPLPB', 'topic Budget guide', 'just chat', 'load all MPLPB', 'load MPLPB', 'chat mode', 'serious mode'):
+        data['chats'][message] = app.chat(dict(corpus='logic', message=message, session=sid, **({'loaded_corpora':['logic','system']} if message=='load MPLPB' else {})))
+        sid = data['chats'][message]['session']
+    data['chats']['So hi?']=app.chat(dict(corpus='logic',message='So hi?',default_chat=True))
+    data['resume'] = app.resume_chat(dict(session=sid))
+    free=app.chat(dict(corpus='logic',message='off-the-record free chat'))
+    data['chats']['off-the-record free chat']=free
+    data['chats']['hello free']=app.chat(dict(corpus='logic',message='hello free',session=free['session']))
+    data['queries']['canned|internal|How do I clear mplpb some or all?']=app.query(dict(corpus='canned',question='How do I clear mplpb some or all?'))
+    result = subprocess.run([node, str(ROOT / 'tools/check_ui_script.cjs'), str(ROOT / 'index.html')],
+                          input=json.dumps(data), text=True, cwd=ROOT).returncode
+    workspace.cleanup()
+    return result
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

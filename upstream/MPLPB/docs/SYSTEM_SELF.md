@@ -1,0 +1,108 @@
+# MPLPB system and creator
+
+MPLPB is a closed local ledger of sealed HTML pages. This interface is a front end
+to its Python reader and provenance gate. It is not a language model or a game simulation.
+
+Current sealed self-reference: SELF-0008. Named collections have separate source
+stores and saved chats. Search TOPIC builds a new local collection. Wikipedia mode follows bounded literal
+links from a pinned seed revision. General web mode needs a configured hosted crawler
+and search provider key; no backend is deployed by the Pages workflow. Manual Bing
+search remains available in a separate tab. Explicit URL imports require browser CORS; pasted text is marked user
+supplied. Standalone mode saves sessions and sources in IndexedDB. Restart clears
+the selected chat; collection reset removes that collection from the active workspace
+and retains source files in a local reset archive. Earlier self-reference pages remain.
+
+Creator: Mitchell D. McPhetridge. Repository account: mitchell-d00.
+The current user identifies themself as the project's creator. This is a creator
+attribution declaration; this system cannot authenticate a person's identity.
+The assistant helped implement these changes. That does not make it the creator.
+
+Repository: https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages
+Interface inspiration: Mitchell's Give It Back: The RPG.
+
+Reader: majority declared-word ownership, with the complete-name ambiguity guard
+and subset specificity, followed by every-word prose containment when no scope owns
+the question. One owner returns its page; several stop; none refuse.
+This is lexical retrieval. It does not provide semantic search or general paraphrase understanding.
+
+Gate: separate eligible sources with sealed hashes and provenance declarations.
+A word on one page and another word on a second page do not prove a relationship.
+Source pins prove recorded bytes, not truth or authenticated authorship.
+
+Chat: explicit topic selection, it/its follow-ups, exact source text, and bounded
+inference over literal structured Fact lines. It labels source assertions and rule
+inferences separately. Unsupported relations are unknown, not false.
+Commands: search TOPIC; find TOPIC; import Exact Wikipedia title; topic Exact local title;
+relate SUBJECT -> OBJECT. Natural questions still pass through the lexical reader.
+There is no language model or hidden semantic reasoning. Crawling is explicitly
+requested and bounded. Search ranking is external, not deterministic reader logic.
+
+Topic import: bounded Wikipedia search/crawl or explicit title selection, raw revision responses,
+main-slot SHA-1, wikitext SHA-256, deterministic local lead rendering and immutable
+captures. Older observations remain in the tree. A same-revision byte conflict is
+archived and blocks the imported-topic collection. Imports do not create an evaluation score.
+
+UI: corpus tiles, source dialogs, revision history, deterministic chat, a tab journal,
+and Fantasy/Sci-fi/Wasteland visual settings. Desktop mode needs the local Python process and opening root index.html alone
+shows launcher instructions. Standalone MPLPB_Browser.html embeds CPython through
+Pyodide WebAssembly, so it does not need a Python installation or server process.
+That generated HTML bundles the reader, gate and pages; it can use static hosting.
+Browser mode uses IndexedDB for sessions and imported source captures. Browser
+permissions, storage eviction and clearing can erase or block those saves. Export
+important transcripts. No local drive is mounted or crawled in browser mode.
+
+Chat uses a deterministic mind layer with explicit finite intents: declared working
+notes, exact-topic extractive summaries, comparisons of separate source excerpts,
+and historical decision explanations. Structured type questions filter the required
+predicate; opposing explicit assertions produce a conflict with both proofs.
+Notes are user declarations, not source facts. General semantic understanding,
+consciousness, autonomous planning and model-generated responses are not implemented.
+
+Sessions use a known local save slot, up to 32 sessions and 1000 turns each.
+They survive refresh and app relaunch until the user explicitly restarts that session.
+Limits refuse further operations without deleting existing state. Corpus/profile
+changes clear topic focus while retaining notes and history. Source pins are rechecked
+before contextual source answers. Historical explanations are labelled historical.
+The browser stores UI preferences and a session ID, not questions or source bodies.
+A local installation or Git clone supplies the app. It reads configured ledger pages
+and its own save slot; it does not crawl or discover local folders. Search and import
+are explicit remote actions. Restart clears a session but retains imported sources.
+Export preserves the transcript, source pins and rule identifiers. Unsigned hashes
+prove consistency only; someone with filesystem write access can recompute them.
+
+This document describes implemented capabilities, not an accuracy guarantee.
+The project still has lexical misses. No new live Wikipedia evaluation score is
+claimed merely because the interface searches, imports, displays or chats about pages.
+
+General web captures keep URL, UTC observation time, raw SHA-256 and locally derived
+text. The server reports source downloads; the browser checks returned hashes but
+does not independently verify site download or authorship. Search snippets and
+generated answers are never source evidence. Link edges are navigation only. Web
+crawls stop at five successful pages, ten attempted page URLs and one link hop.
+Robots restrictions and HTTP failures are recorded; no bypass is implemented.
+The crawler token is tab-only; the provider key belongs in backend secret storage.
+New collections retain independent chats and sources until explicitly reset.
+
+Basic conversational help uses finite greeting, acknowledgement and interface-help
+intents. Ask how to search, ask, save, reset, inspect sources or use notes. These are
+labelled interface instructions, not corpus facts. Help preserves topic context,
+does not crawl, and never resets or deletes data on a conversational request. The
+Get started, Search help and Save help buttons fill the composer before submission.
+Unknown factual questions still go through the original reader and refusal rule.
+
+Clear saved MPLPBs provides checkboxes for one or several named collections and a
+Clear all my collections button. A confirmation names affected collections. Bundled
+corpora and the separate legacy imported-topics store are excluded. Cleared sources
+and session snapshots remain in local reset archives; this does not purge storage.
+No archive restoration UI is implemented. Failed registry writes roll moves back.
+
+Guide me starts a saved four-step conversational tutor. A first-visit invitation
+lets users accept or decline guidance. Suggested questions fill the composer and
+require explicit Send. Show my MPLPB presents eligible titles or explains a blocked
+capture. App-help questions in Ask bypass source reads but never unlock source
+pages; they are interface instructions. Finite procedural patterns cover common
+help phrasing. Common selected-page phrases map to pinned reader/summary operations
+with an interpretation trace. General semantic understanding remains unimplemented.
+The default discovery source is Simple English Wikipedia; general Web still needs
+its separately configured backend. Guide progress saves with chat and can carry
+into a newly built collection. Stopping guidance does not clear sources or notes.

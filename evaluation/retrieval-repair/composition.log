@@ -1,0 +1,14 @@
+✔ completion does not promote non-answers into support (1.99319ms)
+✔ citation loss prunes returns; supported text stays verbatim (0.230269ms)
+✔ transport failures and malformed completions stop (0.459086ms)
+✔ original undamped integrator survives registered limits (227.317149ms)
+✔ negative control prunes damped conservation (12.24957ms)
+✔ invalid specifications fail before simulation (1.402385ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 508.26893

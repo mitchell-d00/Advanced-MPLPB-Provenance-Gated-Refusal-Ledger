@@ -1,0 +1,96 @@
+[
+  {
+    "suite": "calculator/application-checks.cjs",
+    "command": [
+      "node",
+      "tests/application-checks.cjs"
+    ],
+    "exit_code": 0,
+    "log": "evaluation/retrieval-repair/calculator-application-checks.cjs.log"
+  },
+  {
+    "suite": "calculator/cas-checks.cjs",
+    "command": [
+      "node",
+      "tests/cas-checks.cjs"
+    ],
+    "exit_code": 0,
+    "log": "evaluation/retrieval-repair/calculator-cas-checks.cjs.log"
+  },
+  {
+    "suite": "calculator/cas-worker.cjs",
+    "command": [
+      "node",
+      "tests/cas-worker.cjs"
+    ],
+    "exit_code": 0,
+    "log": "evaluation/retrieval-repair/calculator-cas-worker.cjs.log"
+  },
+  {
+    "suite": "calculator/clear-controls.cjs",
+    "command": [
+      "node",
+      "tests/clear-controls.cjs"
+    ],
+    "exit_code": 0,
+    "log": "evaluation/retrieval-repair/calculator-clear-controls.cjs.log"
+  },
+  {
+    "suite": "calculator/full-spectrum.cjs",
+    "command": [
+      "node",
+      "tests/full-spectrum.cjs"
+    ],
+    "exit_code": 0,
+    "log": "evaluation/retrieval-repair/calculator-full-spectrum.cjs.log"
+  },
+  {
+    "suite": "calculator/javascript-api.cjs",
+    "command": [
+      "node",
+      "tests/javascript-api.cjs"
+    ],
+    "exit_code": 0,
+    "log": "evaluation/retrieval-repair/calculator-javascript-api.cjs.log"
+  },
+  {
+    "suite": "calculator/mr-e-checks.cjs",
+    "command": [
+      "node",
+      "tests/mr-e-checks.cjs"
+    ],
+    "exit_code": 0,
+    "log": "evaluation/retrieval-repair/calculator-mr-e-checks.cjs.log"
+  },
+  {
+    "suite": "calculator/unique-benchmarks.cjs",
+    "command": [
+      "node",
+      "tests/unique-benchmarks.cjs"
+    ],
+    "exit_code": 0,
+    "log": "evaluation/retrieval-repair/calculator-unique-benchmarks.cjs.log"
+  },
+  {
+    "suite": "MPLPB javascript API",
+    "command": [
+      "node",
+      "tests/javascript-api.cjs"
+    ],
+    "exit_code": 0,
+    "log": "evaluation/retrieval-repair/MPLPB-javascript-API.log"
+  },
+  {
+    "suite": "pendulum all Node tests",
+    "command": [
+      "node",
+      "--test",
+      "tests/patterns.test.cjs",
+      "tests/physics.test.cjs",
+      "tests/physics_damping_regression.cjs",
+      "tests/studio3d.test.cjs"
+    ],
+    "exit_code": 0,
+    "log": "evaluation/retrieval-repair/pendulum-all-Node-tests.log"
+  }
+]

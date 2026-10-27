@@ -1,0 +1,9 @@
+{
+  "output": "/workspace/scratch/504f48417f21/repair-work/Advanced-MPLPB/web/vendor/mplpb/index.html",
+  "bytes": 37547269,
+  "sha256": "73020f384cd91bbef93e8a5c2374e112e1700aa6b51be0b78b11ab5379099725",
+  "bundled_files": 378,
+  "pyodide": "314.0.7",
+  "core_release_sha256": "2abdcc2e35208af406e07724cffa85bc582ced97e9028383ecf5462541393f95"
+}
+Built web/. Serve with python -m http.server 8000 --directory web

@@ -1,0 +1,11 @@
+{
+  "omitted_archives": [
+    {
+      "path": "upstream/MPLPB/evaluation/audit-2026-10-21/live-final/raw-replay.tar.gz",
+      "bytes": 6847062,
+      "sha256": "3bceffa2f469d6a31d63f32ad2b85c5d34f05c41682fb713f54d8e52677f5d10",
+      "reason": "Bulky archived live-HTTP replay; not required by the original 56, runtime, source build or unit suites. All repair evaluation results remain included.",
+      "upstream_url": "https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/blob/8c8de379b906f0be246ee692de1b4140b19684dd/evaluation/audit-2026-10-21/live-final/raw-replay.tar.gz"
+    }
+  ]
+}

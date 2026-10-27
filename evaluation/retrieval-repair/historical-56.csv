@@ -1,0 +1,57 @@
+id,class,question,expected_kind,expected_owner,old_console_strict_kind,old_retrieval_kind,old_retrieval_owner,new_gated_kind,new_gated_owner,new_strict_kind,new_gated_correct,root_cause_of_legacy_retrieval_miss
+od01,owned-declared,how fast should I heat raw clay on its first firing,return,STUDIO-0002,not_in_corpus,return,STUDIO-0002,return,STUDIO-0002,not_in_corpus,True,none
+od02,owned-declared,the glaze pulled away from the pot,return,STUDIO-0012,not_in_corpus,return,STUDIO-0012,return,STUDIO-0012,not_in_corpus,True,none
+od03,owned-declared,I found an unlabelled bucket,return,STUDIO-0013,not_in_corpus,return,STUDIO-0013,return,STUDIO-0013,not_in_corpus,True,none
+od04,owned-declared,do I need a mask or respirator when sweeping the studio,return,STUDIO-0019,not_in_corpus,return,STUDIO-0019,return,STUDIO-0019,not_in_corpus,True,none
+od05,owned-declared,air bubbles in my clay before throwing,return,STUDIO-0015,not_in_corpus,return,STUDIO-0015,return,STUDIO-0015,not_in_corpus,True,none
+od06,owned-declared,there is a smell while firing,return,STUDIO-0020,not_in_corpus,return,STUDIO-0020,return,STUDIO-0020,not_in_corpus,True,none
+od07,owned-declared,how close can pieces sit when stacking,return,STUDIO-0005,not_in_corpus,return,STUDIO-0005,return,STUDIO-0005,not_in_corpus,True,none
+od08,owned-declared,which clay for cone 6,return,STUDIO-0017,not_in_corpus,return,STUDIO-0017,return,STUDIO-0017,not_in_corpus,True,none
+od09,owned-declared,kiln slow to climb and not reaching temperature,return,STUDIO-0007,not_in_corpus,return,STUDIO-0007,return,STUDIO-0007,not_in_corpus,True,none
+od10,owned-declared,handles pulling away and cracks while drying,return,STUDIO-0016,not_in_corpus,return,STUDIO-0016,return,STUDIO-0016,not_in_corpus,True,none
+op01,owned-prose,how long do I candle the burners,return,STUDIO-0004,not_in_corpus,return,STUDIO-0004,return,STUDIO-0004,not_in_corpus,True,none
+op02,owned-prose,what does it mean if the guard has gone over,return,STUDIO-0006,not_in_corpus,not_in_corpus,,return,STUDIO-0006,not_in_corpus,True,query matching: discourse wrapper word mean blocked full-prose lookup
+op03,owned-prose,how often should I measure resistance with a multimeter,return,STUDIO-0007,not_in_corpus,return,STUDIO-0007,return,STUDIO-0007,not_in_corpus,True,none
+op04,owned-prose,how long should powders slake before stirring,return,STUDIO-0009,not_in_corpus,return,STUDIO-0009,return,STUDIO-0009,not_in_corpus,True,none
+op05,owned-prose,how much Epsom salt solution,return,STUDIO-0013,not_in_corpus,return,STUDIO-0013,return,STUDIO-0013,not_in_corpus,True,none
+op06,owned-prose,ram's head or spiral,return,STUDIO-0015,not_in_corpus,return,STUDIO-0015,return,STUDIO-0015,not_in_corpus,True,none
+op07,owned-prose,what is bag code CR for,return,STUDIO-0017,not_in_corpus,return,STUDIO-0017,return,STUDIO-0017,not_in_corpus,True,none
+op08,owned-prose,how long under cool running water,return,STUDIO-0021,not_in_corpus,return,STUDIO-0021,return,STUDIO-0021,not_in_corpus,True,none
+om01,owned-mixed,"my glaze has small holes in the fired surface after the last load, what went wrong",return,STUDIO-0012,not_in_corpus,return,STUDIO-0012,return,STUDIO-0012,not_in_corpus,True,none
+om02,owned-mixed,is it safe to stay in the room with a hot kiln overnight,return,STUDIO-0020,not_in_corpus,return,STUDIO-0020,return,STUDIO-0020,not_in_corpus,True,none
+om03,owned-mixed,the coils are sagging badly near the bottom of the chamber,return,STUDIO-0007,not_in_corpus,not_in_corpus,,return,STUDIO-0007,not_in_corpus,True,query matching: complete declared situation diluted by descriptive modifiers
+om04,owned-mixed,can I recycle my trimmings from yesterday's session,return,STUDIO-0014,not_in_corpus,not_in_corpus,,return,STUDIO-0014,not_in_corpus,True,query matching: complete declared situation diluted by time/context words
+om05,owned-mixed,what gloves should I wear for unloading a warm kiln,return,STUDIO-0021,not_in_corpus,return,STUDIO-0021,return,STUDIO-0021,not_in_corpus,True,none
+om06,owned-mixed,how much water to add when weighing out a recipe for a celadon,return,STUDIO-0009,not_in_corpus,return,STUDIO-0009,return,STUDIO-0009,not_in_corpus,True,none
+om07,owned-mixed,"my bent cone looks wrong, did the firing reach temperature",return,STUDIO-0006,not_in_corpus,return,STUDIO-0006,return,STUDIO-0006,not_in_corpus,True,none
+om08,owned-mixed,should I be covering my teapot with plastic over the weekend,return,STUDIO-0016,not_in_corpus,not_in_corpus,,return,STUDIO-0016,not_in_corpus,True,query matching: complete declared situation diluted by entity/time words
+at01,ambiguous-true,what is the glaze firing schedule for cone 6,ambiguous,,not_in_corpus,ambiguous,,ambiguous,,not_in_corpus,True,none
+at02,ambiguous-true,what is the top temperature for stoneware,ambiguous,,not_in_corpus,ambiguous,,ambiguous,,not_in_corpus,True,none
+at03,ambiguous-true,schedule for the second firing,ambiguous,,ambiguous,ambiguous,,ambiguous,,ambiguous,True,none
+at04,ambiguous-true,how thick should I coat bisque,ambiguous,,ambiguous,ambiguous,,ambiguous,,ambiguous,True,none
+at05,ambiguous-true,firing glazed pots,ambiguous,,ambiguous,ambiguous,,ambiguous,,ambiguous,True,none
+at06,ambiguous-true,how thick should the glaze coat be,ambiguous,,ambiguous,ambiguous,,ambiguous,,ambiguous,True,none
+rt01,retired-trap,bisque firing schedule for greenware,return,STUDIO-0002,not_in_corpus,return,STUDIO-0002,return,STUDIO-0002,not_in_corpus,True,none
+rt02,retired-trap,ramp rate before glazing,return,STUDIO-0002,not_in_corpus,return,STUDIO-0002,return,STUDIO-0002,not_in_corpus,True,none
+rt03,retired-trap,mixing a glaze batch from dry materials,return,STUDIO-0009,not_in_corpus,return,STUDIO-0009,return,STUDIO-0009,not_in_corpus,True,none
+rt04,retired-trap,sieving and specific gravity,return,STUDIO-0009,not_in_corpus,return,STUDIO-0009,return,STUDIO-0009,not_in_corpus,True,none
+rt05,retired-trap,controlling silica exposure,return,STUDIO-0019,not_in_corpus,return,STUDIO-0019,return,STUDIO-0019,not_in_corpus,True,none
+rt06,retired-trap,cleaning up dry glaze,return,STUDIO-0019,not_in_corpus,return,STUDIO-0019,return,STUDIO-0019,not_in_corpus,True,none
+wh01,withheld,summary of this week's firings,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+wh02,withheld,weekly digest,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+oc01,out-clean,what is the capital of France,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+oc02,out-clean,how do I file quarterly taxes,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+oc03,out-clean,best violin strings for beginners,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+oc04,out-clean,symptoms of altitude sickness,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+oc05,out-clean,train timetable to Edinburgh,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+oc06,out-clean,who won the football match,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+ot01,out-trap,how do I repair the pedal on the wheel,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+ot02,out-trap,what temperature should the studio room be in winter,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+ot03,out-trap,how long does a raku firing take,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+ot04,out-trap,can I fire glass in the kiln,not_in_corpus,,ambiguous,ambiguous,,not_in_corpus,,not_in_corpus,True,ambiguous ownership: proposed generic owners omit explicitly excluded glass
+ot05,out-trap,how do I mix plaster for a mould,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+ot06,out-trap,where do we store finished pots for sale,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+ot07,out-trap,what cone does porcelain fire to,not_in_corpus,,ambiguous,ambiguous,,not_in_corpus,,not_in_corpus,True,ambiguous ownership: proposed generic owners omit explicitly excluded porcelain
+ot08,out-trap,how thick should a slab be for hand building,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+ot09,out-trap,how do I book the kiln,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none
+ot10,out-trap,what does it cost to fire a piece,not_in_corpus,,not_in_corpus,not_in_corpus,,not_in_corpus,,not_in_corpus,True,none

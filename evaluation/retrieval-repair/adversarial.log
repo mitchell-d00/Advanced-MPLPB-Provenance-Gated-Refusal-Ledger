@@ -1,0 +1,23 @@
+test_browser_bridge_parity_and_injection_is_never_executed (__main__.RetrievalRepairTests.test_browser_bridge_parity_and_injection_is_never_executed) ... ok
+test_complete_declared_situation_is_page_inspection_only (__main__.RetrievalRepairTests.test_complete_declared_situation_is_page_inspection_only) ... ok
+test_declared_situation_does_not_bypass_not_for (__main__.RetrievalRepairTests.test_declared_situation_does_not_bypass_not_for) ... ok
+test_discourse_wrapper_preserves_clause_and_polarity (__main__.RetrievalRepairTests.test_discourse_wrapper_preserves_clause_and_polarity) ... ok
+test_escaping_html_symlink_is_rejected_before_reading (__main__.RetrievalRepairTests.test_escaping_html_symlink_is_rejected_before_reading) ... ok
+test_exclusion_is_not_a_global_ban_on_legitimate_owner (__main__.RetrievalRepairTests.test_exclusion_is_not_a_global_ban_on_legitimate_owner) ... ok
+test_explicit_exclusion_cannot_create_generic_owners (__main__.RetrievalRepairTests.test_explicit_exclusion_cannot_create_generic_owners) ... ok
+test_gate_rejection_does_not_pick_a_replacement_owner (__main__.RetrievalRepairTests.test_gate_rejection_does_not_pick_a_replacement_owner) ... ok
+test_missing_body_support_never_unlocks_strict_answer (__main__.RetrievalRepairTests.test_missing_body_support_never_unlocks_strict_answer) ... ok
+test_missing_explicit_origin_cannot_use_legacy_fallback (__main__.RetrievalRepairTests.test_missing_explicit_origin_cannot_use_legacy_fallback) ... ok
+test_multiple_situation_owners_stop_without_ranking (__main__.RetrievalRepairTests.test_multiple_situation_owners_stop_without_ranking) ... ok
+test_network_and_unknown_arguments_are_rejected (__main__.RetrievalRepairTests.test_network_and_unknown_arguments_are_rejected) ... ok
+test_pointers_do_not_expand_the_selected_corpus (__main__.RetrievalRepairTests.test_pointers_do_not_expand_the_selected_corpus) ... ok
+test_quantities_are_not_discarded_for_situation_match (__main__.RetrievalRepairTests.test_quantities_are_not_discarded_for_situation_match) ... ok
+test_retired_dependency_and_external_profile_remain_blocked (__main__.RetrievalRepairTests.test_retired_dependency_and_external_profile_remain_blocked) ... ok
+test_single_term_declarations_do_not_trigger_fallback (__main__.RetrievalRepairTests.test_single_term_declarations_do_not_trigger_fallback) ... ok
+test_situation_clauses_are_not_combined_across_pages (__main__.RetrievalRepairTests.test_situation_clauses_are_not_combined_across_pages) ... ok
+test_tampered_and_duplicate_pages_do_not_return (__main__.RetrievalRepairTests.test_tampered_and_duplicate_pages_do_not_return) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.157s
+
+OK
