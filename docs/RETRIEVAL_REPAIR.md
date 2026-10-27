@@ -14,8 +14,7 @@ questions expecting page returns. It is intentionally not replaced by retrieval.
 
 ## Reconstructing the original benchmark
 
-The later attachment path was not present in the execution workspace. The
-original ZIP delivered in this conversation was still available and was used:
+The benchmark was reconstructed from the original distributed v0.1 release ZIP,
 SHA-256 `c8da45b90d24314c578c314153713dd448db4808ca12036ed3b6626665db436b`.
 It contained the original probes, expected IDs, profiles, studio corpus, historical
 results, prior reader implementations, and the current upstream reader.
@@ -116,8 +115,8 @@ untouched holdouts. There was no tuning to remove their remaining failures.
 - The original upstream WebAssembly smoke was also run; see its complete log.
 
 Browser-only calculator and Pendulums tests were attempted. The Python Playwright
-module and required Chromium executable are absent; the Node browser launch also
-fails in this environment. Browser rendering, IndexedDB, Web Locks and CORS are
+module and required Chromium executable were absent; the Node browser launch also
+failed in the release test environment. Browser rendering, IndexedDB, Web Locks and CORS are
 therefore **unverified**, rather than counted as passing. Independent human
 retrieval and conversation evaluation remains pending.
 
