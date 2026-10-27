@@ -1,5 +1,11 @@
 # Retrieval repair: evidence and limits
 
+> **Status:** this repair has been merged into Combined MPLPB as
+> [pull request #18](https://github.com/mitchell-d00/Combined-MPLPB-A-closed-local-ledger-of-pages-that-answers-only-from-those-pages/pull/18)
+> (commit `d2f92a8`), where its tests now live in `tests/test_page_retrieval.py`.
+> Advanced MPLPB uses that commit unchanged. This report is the original 0.2.0
+> evidence; file and test references below describe that release.
+
 ## Outcome
 
 The actual Python retrieval reader was repaired. Provenance-gated retrieval now
@@ -138,7 +144,8 @@ Run `python scripts/test.py --full`, then
 For a historical before replay, run that evaluator in a new process with
 `--engine-root /path/to/unmodified/MPLPB` at base commit
 `8c8de379b906f0be246ee692de1b4140b19684dd`. The evaluator fails if frozen probe
-hashes differ. The reviewable source diff is `patches/retrieval-repair.patch`.
+hashes differ. The source diff is pull request #18 in Combined MPLPB
+(`8c8de37..d2f92a8`); the 0.2.0 release shipped it as `patches/retrieval-repair.patch`.
 
 No source claims are authenticated by this work. No model, new external corpus,
 permission inference, calculator shortcut or replacement integrator was added.
