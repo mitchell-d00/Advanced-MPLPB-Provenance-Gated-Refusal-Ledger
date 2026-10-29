@@ -92,7 +92,7 @@ AdvancedMPLPBHub.setChecklist('calculator','browser', {
 Checklist entries persist in `advanced-mplpb-hub-checklist-v1` in this origin and
 browser profile. Automated check history is bounded to 100 rows and lives only
 in memory until export; it resets on reload. UI **Export hub report** downloads
-`advanced-mplpb-hub-report.json` with schema 1, export time, checklist, check rows
+`advanced-mplpb-hub-report.json` with schema 1, hub/console versions, engine pins, export time, checklist, check rows
 and `independence_verified:false`. This report is separate from the refusal
 ledger export and is not hash-linked or signed. There is no report import.
 Storage errors are displayed rather than treated as successful saves.

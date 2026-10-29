@@ -81,7 +81,7 @@ async function describe() {
  const ready = await AdvancedMPLPB.ready();
  return {version:'1.0.0',execution:'page-local JavaScript; works on HTTPS or localhost; not an HTTP server',projects:projects.map(p=>({id:p.id,name:p.name,repository:owner+p.repo,live:pages+p.repo+'/',pin:ready.pins.engines[p.id].commit,methods:structuredClone(p.methods)})),limits:AdvancedMPLPB.limits};
 }
-const api = Object.freeze({version:'1.0.0',ready:()=>AdvancedMPLPB.ready(),describe,call,checkProject,checkAll:async()=>{const rows=[];for(const p of projects) rows.push(await checkProject(p.id));return rows;},checkDeployment,getChecklist:()=>structuredClone(checklist),setChecklist,exportReport:()=>structuredClone({schema:1,project:'Advanced MPLPB project API hub',exported:new Date().toISOString(),independence_verified:false,checklist,checks:latest})});
+const api = Object.freeze({version:'1.0.0',ready:()=>AdvancedMPLPB.ready(),describe,call,checkProject,checkAll:async()=>{const rows=[];for(const p of projects) rows.push(await checkProject(p.id));return rows;},checkDeployment,getChecklist:()=>structuredClone(checklist),setChecklist,exportReport:()=>structuredClone({schema:1,project:'Advanced MPLPB project API hub',hubVersion:'1.0.0',consoleVersion:AdvancedMPLPB.version,pins:AdvancedMPLPB.exportSession().pins,exported:new Date().toISOString(),independence_verified:false,checklist,checks:latest})});
 window.AdvancedMPLPBHub = api;
 function output(value) { $('hub-output').textContent = JSON.stringify(value,null,2); }
 function methods() {

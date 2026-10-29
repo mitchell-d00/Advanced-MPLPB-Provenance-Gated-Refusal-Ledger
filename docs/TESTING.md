@@ -90,4 +90,5 @@ Review calculator-generated JSON differences after tests. The asset manifest
 checks listed `web/`/`src/` bytes only. `RELEASE_SHA256.json` is the historical
 packaged-release snapshot, not an assertion that later documentation and hub
 files match the old release. Current run status belongs in
-[VALIDATION.md](VALIDATION.md).
+[VALIDATION.md](VALIDATION.md). Candidate and deployed Chromium checks both passed
+in [run 40887912028](https://github.com/mitchell-d00/Advanced-MPLPB-Provenance-Gated-Refusal-Ledger/actions/runs/40887912028).
