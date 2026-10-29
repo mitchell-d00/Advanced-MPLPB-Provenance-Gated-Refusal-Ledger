@@ -190,7 +190,9 @@ Every push and pull request runs `test.py` and `verify_assets.py` in GitHub
 Actions (**Composition regression checks**). Its separate Chromium job installs
 Playwright and the matching browser, then checks both the candidate console and
 the deployed site. See [testing and evidence](docs/TESTING.md) for exact scope
-and current results.
+and current results. Both candidate-hub and deployed-console Chromium checks
+passed in [run 40887912028](https://github.com/mitchell-d00/Advanced-MPLPB-Provenance-Gated-Refusal-Ledger/actions/runs/40887912028);
+pre-merge deployment testing observes the old live version.
 
 Running the upstream Mitchell Tech suites rewrites their result files under
 `upstream/MitchellTech/tests/`, with last-digit floating-point differences.

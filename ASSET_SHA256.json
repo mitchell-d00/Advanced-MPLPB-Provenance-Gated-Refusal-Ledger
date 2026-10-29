@@ -1,13 +1,13 @@
 {
   "web/app.js": "0838f9c4467765d8acfd74219cb2dda8778b7311c1bdcc22c442fdc356f712cf",
   "web/core.js": "47e6b99e7e6df412c4e710e69c9fb6e8e3148cc22071ff51c299619eaa3c4f23",
-  "web/hub.js": "b15b9612967bfa350e9b7e8b3a9004c1355c5b953097f8b3c0eb7f0ee06d3f2a",
+  "web/hub.js": "301c3a53a14abae6fe146ff7fe2a77facb4336211e07d42f81091176bff66c6e",
   "web/index.html": "568d7f9c1e93e2321a26b3442b0be069e6bfe8be0423b4910cd3153168bfad19",
   "web/pins.json": "f4db4b8838c3c71fc5e7a8f6f37b24eca460b693230ab5df9a48d356d21c93ba",
   "web/protocols/contextual.md": "3185579156e074158ac57d131ebb05d62698803d058e19f96d8658a5007a80f5",
   "web/protocols/conversation.md": "323f1eb397f1339bc5ed1626030f6515d0f4242f111813a4e32442fb519747dc",
   "web/protocols/kill-probes.json": "fd0f8b1d61a206dcbb612fdc7503ab339a09ec02aebf576b27554c1fb4cb9076",
-  "web/style.css": "6e08d25277551b39f6ca6564f8d41b7f4242e180353962ac7ad62d76267e8936",
+  "web/style.css": "1e660b64ed157b80926da80260adb55b21826b206facd534b5b2eef3e4cce31a",
   "web/vendor/MPLPB-LICENSE": "9e26549128b86df9d19aa2b730bd5dd09ebc6970763424a9f0788d46dc39518c",
   "web/vendor/PENDULUMS-LICENSE": "79e4e49d1f852d79299ea03bd4c5e71889cbc36f416ded48f8d65433f5060f3d",
   "web/vendor/calculator/LICENSE": "717920d56fc0d123b7a0f7adc4cedf2a8ba0f785628be1681f380a1094ececa3",
@@ -30,8 +30,8 @@
   "web/vendor/physics.js": "5af83852bded52024b0ad0dccd7ab01446177e39d552b5c911fc9b5555dc3460",
   "src/app.js": "0838f9c4467765d8acfd74219cb2dda8778b7311c1bdcc22c442fdc356f712cf",
   "src/core.js": "47e6b99e7e6df412c4e710e69c9fb6e8e3148cc22071ff51c299619eaa3c4f23",
-  "src/hub.js": "b15b9612967bfa350e9b7e8b3a9004c1355c5b953097f8b3c0eb7f0ee06d3f2a",
+  "src/hub.js": "301c3a53a14abae6fe146ff7fe2a77facb4336211e07d42f81091176bff66c6e",
   "src/index.html": "568d7f9c1e93e2321a26b3442b0be069e6bfe8be0423b4910cd3153168bfad19",
   "src/pins.json": "f4db4b8838c3c71fc5e7a8f6f37b24eca460b693230ab5df9a48d356d21c93ba",
-  "src/style.css": "6e08d25277551b39f6ca6564f8d41b7f4242e180353962ac7ad62d76267e8936"
+  "src/style.css": "1e660b64ed157b80926da80260adb55b21826b206facd534b5b2eef3e4cce31a"
 }

@@ -24,6 +24,11 @@ corpora and frozen historical evidence remain unchanged.
 
 ## Verification
 
+Non-browser suites, all 674 upstream Python methods, current real-engine
+integration and both candidate/live Chromium checks passed. Fresh retrieval
+replay remains 56/56, 22/30 and 16/20. All 35 asset entries verify, and all 39
+local documentation links resolve across 12 maintained files.
+
 Current execution results and limitations are maintained in
 [VALIDATION.md](VALIDATION.md). Initial live HTTP comparison confirmed the root
 redirect, console HTML, `app.js` and `core.js` matched the baseline checkout.
