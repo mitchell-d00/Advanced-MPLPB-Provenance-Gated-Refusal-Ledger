@@ -7,3 +7,5 @@ local/
 /*.tar.gz
 .env
 .env.*
+
+/browser-results/
