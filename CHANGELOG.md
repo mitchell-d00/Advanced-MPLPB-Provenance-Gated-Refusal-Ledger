@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.3.0 — Project API hub — 2026-10-29
+
+- Add a JavaScript project hub for the three pinned engines: project links, JSON
+  playground, bounded smoke checks, on-demand deployment-asset hashes and
+  evidence-required release checklists with report export.
+- Preserve source-support gates and the original console/ledger. Upstream engine
+  pins, corpus bytes and historical benchmark artifacts remain unchanged.
+- Add candidate and live Chromium automation with explicit browser installation.
+- Refresh operational documentation and distinguish current checks, historical
+  evidence, manual reports and deployment verification.
+
+
 ## Retrieval repair upstreamed — 2026-10-27
 
 - The retrieval repair was merged into Combined MPLPB as pull request #18

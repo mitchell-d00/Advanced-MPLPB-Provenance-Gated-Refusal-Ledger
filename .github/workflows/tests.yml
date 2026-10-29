@@ -15,3 +15,32 @@ jobs:
           python-version: '3.13'
       - run: python scripts/test.py
       - run: python scripts/verify_assets.py
+  chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright and Chromium
+        run: |
+          echo "CODEX_PRIMARY_RUNTIME_NODE_MODULES=$RUNNER_TEMP/advanced-browser/node_modules" >> "$GITHUB_ENV"
+          echo "PLAYWRIGHT_BROWSERS_PATH=$RUNNER_TEMP/advanced-chromium" >> "$GITHUB_ENV"
+          npm install --prefix "$RUNNER_TEMP/advanced-browser" --no-save --package-lock=false playwright@1.58.0
+          PLAYWRIGHT_BROWSERS_PATH="$RUNNER_TEMP/advanced-chromium" node "$RUNNER_TEMP/advanced-browser/node_modules/playwright/cli.js" install --with-deps chromium
+      - name: Check bundled console in Chromium
+        env:
+          ADVANCED_BROWSER_OUTPUT: browser-results/local
+          ADVANCED_REQUIRE_HUB: '1'
+        run: node tests/browser.cjs
+      - name: Check deployed console in Chromium
+        env:
+          ADVANCED_BASE_URL: https://mitchell-d00.github.io/Advanced-MPLPB-Provenance-Gated-Refusal-Ledger/web/
+          ADVANCED_BROWSER_OUTPUT: browser-results/live
+        run: node tests/browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: advanced-chromium-evidence
+          path: browser-results/
